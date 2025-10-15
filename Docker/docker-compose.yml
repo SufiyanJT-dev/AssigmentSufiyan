@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  sqlserver:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Sufiyan@123"
+    ports:
+      - "1500:1433"
+    volumes:
+      - type: bind
+        source : ./docker/sqldata/data
+        target : /var/opt/mssql/data
+      # - sqldata:/var/opt/mssql
+
+
+
