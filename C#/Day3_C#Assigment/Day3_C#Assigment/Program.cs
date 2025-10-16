@@ -12,4 +12,10 @@
 //Calculator calculator = new Calculator();
 using Day3_C_Assigment;
 
-Employee employee=new Employee("Sufiyan",10000);
+//Employee employee=new Employee("Sufiyan",10000);
+//BankAccount bankAccount = new BankAccount(1,"Sufiyan",2000.0);
+//bankAccount.Deposit(100);
+//bankAccount.DisplayBalance();
+ //SwapUsingRef swapUsingRef = new SwapUsingRef();
+ 
+//CompareNumbers compareNumbers =new CompareNumbers(10,20);
