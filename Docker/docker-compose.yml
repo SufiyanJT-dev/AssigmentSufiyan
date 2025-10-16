@@ -8,7 +8,7 @@ services:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: "Sufiyan@123"
     ports:
-      - "1500:1433"
+      - "1433:1433"
     volumes:
       - type: bind
         source : ./docker/sqldata/data
