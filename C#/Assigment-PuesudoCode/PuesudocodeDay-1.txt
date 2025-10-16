@@ -14,14 +14,15 @@ LARGEST OF 3 NUMBER
 
 START
    INPUT <- A, B, C
-   IF A <= B AND B <= C THEN
-      PRINT "C IS LARGEST"
-   ELIF A <= B AND B >= C THEN
-      PRINT "B IS LARGEST"
+   IF A >= B AND A >= C THEN
+      PRINT "A is largest"
+   ELSEIF B >= A AND B >= C THEN
+      PRINT "B is largest"
    ELSE
-      PRINT "A IS LARGEST"
+      PRINT "C is largest"
    ENDIF
 END
+
 
 MULTIPLICATION TABLE OF ANY NUMBERS
 START
