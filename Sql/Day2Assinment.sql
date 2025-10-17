@@ -19,7 +19,7 @@ List all employees whose last name begins with the letter 'S'.
 Display all employees with exactly five letters in their first name.
 	->select * from Employees where FirstName LIKE '_____'
 Find employees whose last name starts with either 'B', 'R', or 'S'.
-	->select  * from Employees where FirstName Like  '[B,R,S]%'
+	->select  * from Employees where LastName Like  '[B,R,S]%'
 Retrieve all employees whose first name begins with any letter from 'A' through 'M'.
 	->Select * from Employees where FirstName LIKE '[A-M]%'
 List employees whose last name doesn t start with a vowel (A, E, I, O, U),
