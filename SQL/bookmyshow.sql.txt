@@ -1,0 +1,123 @@
+
+CREATE TABLE Users (
+    UserID INT IDENTITY PRIMARY KEY,
+    FullName NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) UNIQUE NOT NULL,
+    Phone NVARCHAR(15),
+	[Status] int not null,
+    Password NVARCHAR(255),
+    CreatedAt DATETIME DEFAULT GETDATE()
+);
+
+
+CREATE TABLE Cities (
+    CityID INT IDENTITY PRIMARY KEY,
+    CityName NVARCHAR(100) UNIQUE NOT NULL
+);
+
+
+CREATE TABLE Theaters (
+    TheaterID INT IDENTITY PRIMARY KEY,
+    TheaterName NVARCHAR(100) NOT NULL,
+    Address NVARCHAR(255),
+    CityID INT NOT NULL,
+    FOREIGN KEY (CityID) REFERENCES Cities(CityID)
+);
+
+
+CREATE TABLE Screens (
+    ScreenID INT IDENTITY PRIMARY KEY,
+    TheaterID INT NOT NULL,
+    ScreenName NVARCHAR(50) NOT NULL,
+	[Status] int not null,
+    TotalSeats INT CHECK (TotalSeats > 0),
+    FOREIGN KEY (TheaterID) REFERENCES Theaters(TheaterID)
+);
+
+CREATE TABLE Movies (
+    MovieID INT IDENTITY PRIMARY KEY,
+    Title NVARCHAR(200) NOT NULL,
+
+    Language NVARCHAR(50),
+    Rating DECIMAL(2,1) CHECK (Rating >= 0 AND Rating <= 10),
+    ReleaseDate DATE
+);
+
+create table Genere(
+GenrereID INT IDENTITY PRIMARY KEY,
+GenereName varchar(10) not null
+);
+create Table MovieGenere(
+MovieGenereID int IDENTITY PRIMARY KEY,
+MovieID int not NUll,
+GenereID Int NOT NULL);
+
+CREATE TABLE Shows (
+    ShowID INT IDENTITY PRIMARY KEY,
+    MovieID INT NOT NULL,
+    ScreenID INT NOT NULL,
+    ShowDate DATE NOT NULL,
+    ShowTime TIME NOT NULL,
+	[Status] int not null,
+    Price DECIMAL(10,2) CHECK (Price > 0),
+    FOREIGN KEY (MovieID) REFERENCES Movies(MovieID),
+    FOREIGN KEY (ScreenID) REFERENCES Screens(ScreenID)
+);
+
+
+
+
+
+CREATE TABLE Bookings (
+    BookingID INT IDENTITY PRIMARY KEY,
+    UserID INT NOT NULL,
+    ShowID INT NOT NULL,
+    BookingDate DATETIME DEFAULT GETDATE(),
+    [Status] NVARCHAR(20) ,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID),
+    FOREIGN KEY (ShowID) REFERENCES Shows(ShowID)
+);
+CREATE TABLE Seats (
+    SeatID INT IDENTITY PRIMARY KEY,
+    ScreenID INT NOT NULL,
+	
+    SeatNumber NVARCHAR(10) NOT NULL,
+	SeatStatus int not null,
+    SeatType NVARCHAR(20) NOT NULL, 
+	[Status] int not null,
+    FOREIGN KEY (ScreenID) REFERENCES Screens(ScreenID),
+	
+    CONSTRAINT UQ_Seat UNIQUE (ScreenID, SeatNumber)
+);
+CREATE TABLE BookingDetails (
+    BookingDetailID INT IDENTITY PRIMARY KEY,
+    BookingID INT NOT NULL,
+    SeatID INT NOT NULL,
+    FOREIGN KEY (BookingID) REFERENCES Bookings(BookingID),
+    FOREIGN KEY (SeatID) REFERENCES Seats(SeatID),
+    CONSTRAINT UQ_BookingSeat UNIQUE (BookingID, SeatID)
+);
+
+CREATE TABLE Payments (
+    PaymentID INT IDENTITY PRIMARY KEY,
+    BookingID INT NOT NULL,
+    Amount DECIMAL(10,2) CHECK (Amount > 0),
+    PaymentMode NVARCHAR(20),
+    PaymentStatus NVARCHAR(20),
+    PaymentDate DATETIME DEFAULT GETDATE(),
+    FOREIGN KEY (BookingID) REFERENCES Bookings(BookingID)
+);
+is this in 3 nf
+----Insert into Users values('Sufiyan','@ex.com','202022',1,'123',GETDATE());
+----Insert into Movies values('Hero','Malayalam',3.1,GETDATE());
+----Insert into MovieGenere values(1,1);
+----Insert into Cities values('TVM');
+----Insert into Theaters values('TVM Cools','tvm hill',1);
+
+----Insert into Screens values(1,'daliya',1,10);
+
+----insert into  Shows values(1,1,GETDATE(),(GETUTCDATE()),1,100) 
+----insert into  Shows values(1,1,GETDATE(),(GETUTCDATE()),1,100) 
+----insert into Bookings values(1,1,GETDATE(),1)
+--insert into Seats values(1,'A1',1,'Gold',1)
+--insert into  BookingDetails values (1,1);
