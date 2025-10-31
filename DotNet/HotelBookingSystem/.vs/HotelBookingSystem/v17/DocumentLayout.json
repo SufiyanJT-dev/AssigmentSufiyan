@@ -1,0 +1,863 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\reviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\reviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\hotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\hotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\ibookingserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\ibookingserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\updatehoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\updatehoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\addupdatepaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\addupdatepaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\bookingservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\bookingservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\iroomserices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\iroomserices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\addupdatebookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\addupdatebookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\addupdateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\addupdateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\employeeservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\employeeservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\roomserices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\roomserices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\iroomtypeservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\iroomtypeservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\interface\\ihotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\interface\\ihotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\updatecustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\updatecustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\addupdateroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\addupdateroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\updateroomtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\updateroomtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\addcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\addcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\datab\\hotelbookingsystemcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\datab\\hotelbookingsystemcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\services\\roomtypeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\services\\roomtypeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\addroomtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\addroomtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\dtos\\addhoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\dtos\\addhoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\hotelbookingsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\hotelbookingsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\DotNet\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029115836_intialDatabsecreationandtablecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\migrations\\20251029121110_intialdatabsecreationandtablecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\migrations\\20251029121110_intialdatabsecreationandtablecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|c:\\users\\sufiyan.jt\\desktop\\assigmentsufiyan\\.net\\hotelbookingsystem\\hotelbookingsystem\\migrations\\20251029133126_testmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7433A4-CE94-4328-8555-A82DB717BFCD}|HotelBookingSystem\\HotelBookingSystem.csproj|solutionrelative:hotelbookingsystem\\migrations\\20251029133126_testmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IReviewService.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\IReviewService.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IReviewService.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\IReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T12:26:27.403Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\PaymentServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\PaymentServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\PaymentServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\PaymentServices.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T12:06:08.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HotelServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\HotelServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\HotelServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\HotelServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\HotelServices.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:16:44.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\RoomType.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\RoomType.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\RoomType.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\RoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:38:23.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Program.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:25:01.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T10:14:40.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:23:42.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T12:18:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T12:47:15.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T12:49:43.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReviewServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\ReviewServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\ReviewServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\ReviewServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\ReviewServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T12:30:18.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBookingSerivce.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IBookingSerivce.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\IBookingSerivce.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IBookingSerivce.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\IBookingSerivce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:39:06.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Review.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:38:38.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Rooms.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Rooms.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\Rooms.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Rooms.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\Rooms.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:32:10.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPaymentServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IPaymentServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\IPaymentServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IPaymentServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\IPaymentServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:56:37.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateHotelDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\UpdateHotelDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\UpdateHotelDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\UpdateHotelDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\UpdateHotelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:14:21.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Employee.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:38:56.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Payment.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\Payment.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:38:41.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoomTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\RoomTypeController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\RoomTypeController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\RoomTypeController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\RoomTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T05:31:46.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:14:39.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookingServies.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\BookingServies.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\BookingServies.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\BookingServies.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\BookingServies.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:41:32.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddUpdatePaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdatePaymentDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\AddUpdatePaymentDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdatePaymentDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\AddUpdatePaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T12:02:03.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Hotel.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:29:44.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRoomSerices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IRoomSerices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\IRoomSerices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IRoomSerices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\IRoomSerices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T06:26:51.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddUpdateEmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\AddUpdateEmployeeDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdateEmployeeDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\AddUpdateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T09:59:01.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Customer.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:38:03.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Models\\Booking.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:37:42.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\ICustomerService.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:31:09.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddUpdateBookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdateBookingDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\AddUpdateBookingDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdateBookingDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\AddUpdateBookingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:32:12.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\IEmployeeServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IEmployeeServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\IEmployeeServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T09:56:43.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EmployeeServies.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\EmployeeServies.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\EmployeeServies.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\EmployeeServies.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\EmployeeServies.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T10:02:46.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoomSerices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\RoomSerices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\RoomSerices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\RoomSerices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\RoomSerices.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T06:30:24.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IHotelServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IHotelServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\IHotelServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IHotelServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\IHotelServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T06:27:10.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRoomTypeServies.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IRoomTypeServies.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Interface\\IRoomTypeServies.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Interface\\IRoomTypeServies.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Interface\\IRoomTypeServies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:40:51.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateCustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\UpdateCustomerDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\UpdateCustomerDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\UpdateCustomerDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\UpdateCustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T06:58:53.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddUpdateRoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdateRoomDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\AddUpdateRoomDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddUpdateRoomDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\AddUpdateRoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T06:37:03.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AddCustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddCustomerDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\AddCustomerDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddCustomerDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\AddCustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T09:08:58.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateRoomTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\UpdateRoomTypeDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\UpdateRoomTypeDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\UpdateRoomTypeDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\UpdateRoomTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:47:56.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CustomerServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\CustomerServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\CustomerServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\CustomerServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\CustomerServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:38:51.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T12:01:11.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HotelBookingSystemContex.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\DataB\\HotelBookingSystemContex.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\DataB\\HotelBookingSystemContex.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\DataB\\HotelBookingSystemContex.cs",
+              "RelativeToolTip": "HotelBookingSystem\\DataB\\HotelBookingSystemContex.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:41:31.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RoomTypeServices.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\RoomTypeServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Services\\RoomTypeServices.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Services\\RoomTypeServices.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Services\\RoomTypeServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T03:54:10.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AddRoomTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddRoomTypeDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\AddRoomTypeDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddRoomTypeDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\AddRoomTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:46:35.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\appsettings.json",
+              "RelativeToolTip": "HotelBookingSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T13:04:07.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AddHotelDto.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddHotelDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Dtos\\AddHotelDto.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Dtos\\AddHotelDto.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Dtos\\AddHotelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:13:11.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20251029133126_testmigration.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029133126_testmigration.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Migrations\\20251029133126_testmigration.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029133126_testmigration.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Migrations\\20251029133126_testmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T13:31:26.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\WeatherForecast.cs",
+              "RelativeToolTip": "HotelBookingSystem\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:24:55.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20251029121110_intialDatabsecreationandtablecreation.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029121110_intialDatabsecreationandtablecreation.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\Migrations\\20251029121110_intialDatabsecreationandtablecreation.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029121110_intialDatabsecreationandtablecreation.cs",
+              "RelativeToolTip": "HotelBookingSystem\\Migrations\\20251029121110_intialDatabsecreationandtablecreation.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:11:10.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HotelBookingSystem.http",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.http",
+              "RelativeDocumentMoniker": "HotelBookingSystem\\HotelBookingSystem.http",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\AssigmentSufiyan\\.Net\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.http",
+              "RelativeToolTip": "HotelBookingSystem\\HotelBookingSystem.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-29T12:04:52.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251029115836_intialDatabsecreationandtablecreation.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\DotNet\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029115836_intialDatabsecreationandtablecreation.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Assigment\\DotNet\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029115836_intialDatabsecreationandtablecreation.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\DotNet\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029115836_intialDatabsecreationandtablecreation.cs",
+              "RelativeToolTip": "..\\..\\..\\Assigment\\DotNet\\HotelBookingSystem\\HotelBookingSystem\\Migrations\\20251029115836_intialDatabsecreationandtablecreation.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:58:36.645Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
