@@ -28,11 +28,11 @@ nextSlide() {
     { id: 2, name: 'Grand Budapest Hotel' },
     { id: 3, name: 'The Overlook Hotel' }
   ];
- @Output() ValueEmitter=new EventEmitter<any>();
+
   goToHotel(id: number) {
     const selectedHotel = this.hotels.find(hotel => hotel.id === id);
     if (selectedHotel) {
-     this.ValueEmitter.emit(this.hotels);
+    
       this.hotelService.selectHotel(selectedHotel);
       this.router.navigate(['/hotel-details', id]);
     }

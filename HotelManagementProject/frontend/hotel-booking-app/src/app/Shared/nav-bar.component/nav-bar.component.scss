@@ -1,28 +1,36 @@
 nav {
-  position: fixed; // stays in place while scrolling
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%); // centers horizontally
-  z-index: 1000; // ensures it's above other content
+  position: fixed;
   top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
   display: flex;
-  justify-content: center;
+  justify-content: space-between; // changed from center
   align-items: center;
-  gap: 2rem;
   padding: 1rem 2rem;
   width: 75%;
-  background: rgba(255, 255, 255, 0.1); // semi-transparent
-  backdrop-filter: blur(10px); // glass blur
-  -webkit-backdrop-filter: blur(55px); // Safari support
-  border: 1px solid rgba(255, 255, 255, 0.3); // subtle border
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(55px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+  .logo {
+    height: 40px;
+    width: auto;
+    margin-right: 2rem; // reduced spacing
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
 
   a {
     color: #000000;
     text-decoration: none;
     font-weight: 500;
-    
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
     border-radius: 6px;

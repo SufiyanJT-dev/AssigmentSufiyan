@@ -2,9 +2,10 @@ import { Component, input, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { OnInit } from '@angular/core';
 import{ HotelCommunication } from '../../../Shared/hotel-communication';
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-hotel-details',
-  imports: [RouterModule ],
+  imports: [RouterModule,CommonModule ],
   templateUrl: './hotel-details.html',
   styleUrl: './hotel-details.scss',
 })
