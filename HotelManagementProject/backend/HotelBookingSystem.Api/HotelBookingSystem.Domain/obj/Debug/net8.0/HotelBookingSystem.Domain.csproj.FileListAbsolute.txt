@@ -1,0 +1,11 @@
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\bin\Debug\net8.0\HotelBookingSystem.Domain.deps.json
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\bin\Debug\net8.0\HotelBookingSystem.Domain.dll
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\bin\Debug\net8.0\HotelBookingSystem.Domain.pdb
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.AssemblyInfo.cs
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.dll
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\refint\HotelBookingSystem.Domain.dll
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.pdb
+C:\Users\sufiyan.jt\Desktop\DotNet\CleanArch\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\ref\HotelBookingSystem.Domain.dll
