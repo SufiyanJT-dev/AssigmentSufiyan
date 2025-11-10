@@ -14,7 +14,7 @@ namespace Day4_Assigment
         public static double surgeMultiplier = 1.0;
          static UberRide()
         {
-            Console.WriteLine("Uber System Initialized. Ready to book rides..");
+           
             
         }
         public string RideId {  get; set; }

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\c#\\day4-assigment\\day4-assigment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|solutionrelative:day4-assigment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\c#\\day4-assigment\\day4-assigment\\uberride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|solutionrelative:day4-assigment\\uberride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\c#\\day4-assigment\\day4-assigment\\day4-assigment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|solutionrelative:day4-assigment\\day4-assigment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\c#\\day4-assigment\\day4-assigment\\employeemanagement .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB476CA7-A058-4C5A-A3C9-839225F14646}|Day4-Assigment\\Day4-Assigment.csproj|solutionrelative:day4-assigment\\employeemanagement .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\Program.cs",
+              "RelativeDocumentMoniker": "Day4-Assigment\\Program.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\Program.cs",
+              "RelativeToolTip": "Day4-Assigment\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:17:54.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UberRide.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\UberRide.cs",
+              "RelativeDocumentMoniker": "Day4-Assigment\\UberRide.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\UberRide.cs",
+              "RelativeToolTip": "Day4-Assigment\\UberRide.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:17:39.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeManagement .cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\EmployeeManagement .cs",
+              "RelativeDocumentMoniker": "Day4-Assigment\\EmployeeManagement .cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\EmployeeManagement .cs",
+              "RelativeToolTip": "Day4-Assigment\\EmployeeManagement .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:16:01.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Day4-Assigment",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\Day4-Assigment.csproj",
+              "RelativeDocumentMoniker": "Day4-Assigment\\Day4-Assigment.csproj",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\C#\\Day4-Assigment\\Day4-Assigment\\Day4-Assigment.csproj",
+              "RelativeToolTip": "Day4-Assigment\\Day4-Assigment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T05:15:54.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ namespace Day4_Assigment
         public static int  IdCounter ;
         public string ID { get; private set; }
         public string Name { get;  set; }
-        public int Salary {  get; set; }
+        public double Salary {  get; set; }
         public string EmployeeType {  get; set; }
         static EmployeeManagement()
         {
