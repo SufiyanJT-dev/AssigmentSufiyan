@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\assigment\\c#\\day3_c#assignment\\day3_c#assigment\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|solutionrelative:day3_c#assigment\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\assigment\\c#\\day3_c#assignment\\day3_c#assigment\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|solutionrelative:day3_c#assigment\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\assigment\\c#\\day3_c#assignment\\day3_c#assigment\\swapnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|solutionrelative:day3_c#assigment\\swapnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\assigment\\c#\\day3_c#assignment\\day3_c#assigment\\comparenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|solutionrelative:day3_c#assigment\\comparenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\assigment\\c#\\day3_c#assignment\\day3_c#assigment\\arrymaxandmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|solutionrelative:day3_c#assigment\\arrymaxandmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\assigment\\c#\\day3_c#assignment\\day3_c#assigment\\arithmeticoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|solutionrelative:day3_c#assigment\\arithmeticoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|c:\\users\\sufiyan.jt\\desktop\\assigment\\c#\\day3_c#assignment\\day3_c#assigment\\day3_c#assigment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37A44042-A133-4C63-9FB9-324FEAA809BD}|Day3_C#Assigment\\Day3_C#Assigment.csproj|solutionrelative:day3_c#assigment\\day3_c#assigment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\Employee.cs",
+              "RelativeDocumentMoniker": "Day3_C#Assigment\\Employee.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\Employee.cs",
+              "RelativeToolTip": "Day3_C#Assigment\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:35:44.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwapNumber.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\SwapNumber.cs",
+              "RelativeDocumentMoniker": "Day3_C#Assigment\\SwapNumber.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\SwapNumber.cs",
+              "RelativeToolTip": "Day3_C#Assigment\\SwapNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:35:28.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\Student.cs",
+              "RelativeDocumentMoniker": "Day3_C#Assigment\\Student.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\Student.cs",
+              "RelativeToolTip": "Day3_C#Assigment\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:32:12.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompareNumbers.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\CompareNumbers.cs",
+              "RelativeDocumentMoniker": "Day3_C#Assigment\\CompareNumbers.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\CompareNumbers.cs",
+              "RelativeToolTip": "Day3_C#Assigment\\CompareNumbers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:31:00.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArryMaxAndMin.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\ArryMaxAndMin.cs",
+              "RelativeDocumentMoniker": "Day3_C#Assigment\\ArryMaxAndMin.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\ArryMaxAndMin.cs",
+              "RelativeToolTip": "Day3_C#Assigment\\ArryMaxAndMin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:30:44.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArithmeticOperations.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\ArithmeticOperations.cs",
+              "RelativeDocumentMoniker": "Day3_C#Assigment\\ArithmeticOperations.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\ArithmeticOperations.cs",
+              "RelativeToolTip": "Day3_C#Assigment\\ArithmeticOperations.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwBAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:26:25.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Day3_C#Assigment",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\Day3_C#Assigment.csproj",
+              "RelativeDocumentMoniker": "Day3_C#Assigment\\Day3_C#Assigment.csproj",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\Assigment\\C#\\Day3_C#Assignment\\Day3_C#Assigment\\Day3_C#Assigment.csproj",
+              "RelativeToolTip": "Day3_C#Assigment\\Day3_C#Assigment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T04:26:16.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
