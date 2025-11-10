@@ -2,9 +2,9 @@
 {
     public class Mathss
     {
-        public void IsEven(int NumberVariable)
+        public void IsEven(int numberVariable)
         {
-            if (NumberVariable % 2 == 0)
+            if (numberVariable % 2 == 0)
             {
                 Console.WriteLine("Number is even");
             }
@@ -13,21 +13,21 @@
                 Console.WriteLine("Number is Odd");
             }
         }
-        public void IsPrime(int NumberVariable)
+        public void IsPrime(int numberVariable)
         {
-            if (NumberVariable <= 1)
+            if (numberVariable <= 1)
             {
                 Console.WriteLine("Not A Prime");
             }
-            else if (NumberVariable == 2)
+            else if (numberVariable == 2)
             {
                 Console.WriteLine("it is a prime Number");
             }
             else
             {
-                for (int i = 2; i < Math.Sqrt(NumberVariable); i++)
+                for (int i = 2; i < Math.Sqrt(numberVariable); i++)
                 {
-                    if (NumberVariable % i == 0)
+                    if (numberVariable % i == 0)
                     {
                         Console.WriteLine("Not a prime");
                         return;
@@ -37,10 +37,10 @@
 
             }
         }
-        public void Factorial(int NumberVariable)
+        public void Factorial(int numberVariable)
         {
             int fact = 1;
-            for(int i = 1; i <= NumberVariable; i++)
+            for(int i = 1; i <= numberVariable; i++)
             {
                 fact=fact*i;
             }

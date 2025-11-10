@@ -8,16 +8,16 @@ namespace LibrarySystems.Books
 {
     public class Journal
     {
-        string JournalAthorName { get; set; }
+        string JournalAuthorName { get; set; }
         public string JournalTitle { get; set; }
         public string JournalId { get; set; }
         public static int TotolJournal = 0;
-        public Journal(string Journaltitle, string Journalathorname)
+        public Journal(string journaltitle, string journalAuthorname)
         {
             TotolJournal = TotolJournal + 1;
-            JournalAthorName = Journalathorname;
+            JournalAuthorName = journalAuthorname;
             JournalId = "J" + (1000 + TotolJournal);
-            JournalTitle = Journaltitle;
+            JournalTitle = journaltitle;
 
             DisplayJournalDetails();
         }
