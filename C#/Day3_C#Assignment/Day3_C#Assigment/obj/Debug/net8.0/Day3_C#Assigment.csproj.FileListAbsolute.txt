@@ -1,0 +1,15 @@
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\bin\Debug\net8.0\Day3_C#Assigment.exe
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\bin\Debug\net8.0\Day3_C#Assigment.deps.json
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\bin\Debug\net8.0\Day3_C#Assigment.runtimeconfig.json
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\bin\Debug\net8.0\Day3_C#Assigment.dll
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\bin\Debug\net8.0\Day3_C#Assigment.pdb
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.AssemblyInfoInputs.cache
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.AssemblyInfo.cs
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.csproj.CoreCompileInputs.cache
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.sourcelink.json
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.dll
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\refint\Day3_C#Assigment.dll
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.pdb
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\Day3_C#Assigment.genruntimeconfig.cache
+C:\Users\sufiyan.jt\Desktop\Assigment\C#\Day3_C#Assignment\Day3_C#Assigment\obj\Debug\net8.0\ref\Day3_C#Assigment.dll
