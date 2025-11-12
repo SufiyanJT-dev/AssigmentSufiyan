@@ -2,6 +2,7 @@
 using HotelBookingSystem.Appilcation.Hotels.Command;
 using HotelBookingSystem.Appilcation.Hotels.Dtos;
 using HotelBookingSystem.Appilcation.Hotels.Query;
+using HotelBookingSystem.Appilcation.Rooms.Query;
 using HotelBookingSystem.Appilcation.RoomType.Query;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -21,9 +22,12 @@ namespace HotelBookingSystem.Api.Controllers
             this.mediator = mediator;
         }
         [HttpPost]
-        public async Task<ActionResult<string>> Get(CreateHotelCommand command) { 
+        [Consumes("multipart/form-data")]
+        public async Task<ActionResult<string>> Create([FromForm] CreateHotelCommand command)
+        {
             return await mediator.Send(command);
         }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Appilcation.Hotels.Dtos.HotelTypeGetByIdDtos>> GetByID(int id)
         {
@@ -51,5 +55,16 @@ namespace HotelBookingSystem.Api.Controllers
             command.Id= id;
             return await mediator.Send(command);
         }
+        [HttpGet("filter")]
+        public async Task<List<Domain.Entities.Rooms>> Filters([FromQuery] FilterQuery query)
+        {
+           
+            return await mediator.Send(query);
+        }
+
+
+
+
     }
 }
+

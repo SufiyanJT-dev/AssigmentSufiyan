@@ -1,5 +1,6 @@
 ﻿using HotelBookingSystem.Appilcation.Customer.Command;
 using HotelBookingSystem.Appilcation.Customer.Query;
+using HotelBookingSystem.Appilcation.Employee.Query;
 using HotelBookingSystem.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -61,7 +62,8 @@ namespace HotelBookingSystem.Api.Controllers
             return await mediator.Send(commad);
          
         }
-        
+       
+
     }
 
 }

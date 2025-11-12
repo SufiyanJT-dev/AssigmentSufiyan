@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,8 +13,11 @@ namespace HotelBookingSystem.Appilcation.Hotels.Command
     {
         public string Name { get; set; }
         public string Address { get; set; }
+        public string Description { get; set; }
+        [FromForm] public IFormFile Image { get; set; }
         public string City { get; set; }
         public string Country { get; set; }
+        public string path { get; set; }
         public string PhoneNumber { get; set; }
 
     }

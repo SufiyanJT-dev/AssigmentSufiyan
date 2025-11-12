@@ -19,5 +19,6 @@ namespace HotelBookingSystem.Appilcation.Booking.Command
         public BookingStatus Status { get; set; }
         public decimal TotalAmount { get; set; }
 
+
     }
 }

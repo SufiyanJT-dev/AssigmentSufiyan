@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RUTOXtwL6gc=",
+  "dgSpecHash": "3hbcpZAxWAs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\CleanArch\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj",
+  "projectFilePath": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sufiyan.jt\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sufiyan.jt\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
