@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Apicommuncation } from '../../../../shared/Api/apicommuncation';
 import { Console, error } from 'console';
 import { Router } from '@angular/router';
+import { SearchFormData } from '../Type/SerachInterface';
 
 @Component({
   selector: 'app-banner',
@@ -14,7 +15,11 @@ import { Router } from '@angular/router';
 export class Banner {
   constructor(private router:Router ,private api:Apicommuncation){}
 onSearch(form: any) {
-    const formValues = form.value;
+    const formValues: SearchFormData={
+      location: form.value.location || '',
+    checkInDate: form.value.checkInDate || '',
+    checkOutDate: form.value.checkOutDate || '',
+  };
     this.router.navigate(['/result-page'],{
       queryParams:formValues,
       

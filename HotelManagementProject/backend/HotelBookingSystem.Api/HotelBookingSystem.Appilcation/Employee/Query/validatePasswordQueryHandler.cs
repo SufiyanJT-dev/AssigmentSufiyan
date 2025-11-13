@@ -1,4 +1,6 @@
-﻿using HotelBookingSystem.Appilcation.Employee.Query;
+﻿using Azure.Core;
+using HotelBookingSystem.Appilcation.Employee.Query;
+using HotelBookingSystem.Domain.Entities;
 using HotelBookingSystem.Infrastructure.Data;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace HotelBookingSystem.Application.Employee.Query
 {
-    public class ValidatePasswordQueryHandler : IRequestHandler<validatePasswordQuery, ActionResult<string>>
+    public class ValidatePasswordQueryHandler : IRequestHandler<validatePasswordQuery, (string accessToken, string refreshToken)>
     {
         private readonly HotelDbContext _hotelDbContext;
         private readonly IPasswordHasher<Domain.Entities.Employee> _passwordHasher;
@@ -25,29 +27,40 @@ namespace HotelBookingSystem.Application.Employee.Query
             _jwtTokenGenerator = jwtTokenGenerator;
         }
 
-        public async Task<ActionResult<string>> Handle(validatePasswordQuery request, CancellationToken cancellationToken)
+        public async Task<(string accessToken, string refreshToken)> Handle(validatePasswordQuery request, CancellationToken cancellationToken)
         {
             var employee = await _hotelDbContext.Employees
                 .FirstOrDefaultAsync(e => e.Email == request.Email, cancellationToken);
 
             if (employee == null)
             {
-                return new OkObjectResult("Invalid Email");
+                return (null, null); // or throw new UnauthorizedAccessException("Invalid Email");
             }
 
             var result = _passwordHasher.VerifyHashedPassword(employee, employee.password, request.Password);
 
             if (result == PasswordVerificationResult.Success)
             {
-                var refershToken = _jwtTokenGenerator.GenerateRefreshToken();
-                var token =  _jwtTokenGenerator.GenerateToken(employee.Email);
-                return new OkObjectResult(token, refershToken);
+                var refreshToken = _jwtTokenGenerator.GenerateRefreshToken();
+                var accessToken = await _jwtTokenGenerator.GenerateToken(employee.Email);
+
+                var tokenEntity = new RefreshToken
+                {
+                    EmployeeId = employee.Id,
+                    Token = refreshToken,
+                    ExpiresAt = DateTime.UtcNow.AddDays(7),
+                    CreatedAt = DateTime.UtcNow,
+                    Revoked = false
+                };
+                _hotelDbContext.RefreshTokens.Add(tokenEntity);
+                await _hotelDbContext.SaveChangesAsync(cancellationToken);
+
+                return (accessToken, refreshToken);
             }
-            else
-            {
-                return new OkObjectResult("Invalid Password");
-            }
+
+            return (null, null); // or throw new UnauthorizedAccessException("Invalid Password");
         }
+
 
     }
 }

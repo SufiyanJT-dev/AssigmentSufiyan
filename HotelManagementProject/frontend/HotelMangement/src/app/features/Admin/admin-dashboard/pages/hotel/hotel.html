@@ -1,0 +1,50 @@
+<div class="hotel-page">
+  <div class="page-header">Hotel Management</div>
+
+  <!-- Add Hotel Button -->
+  <button class="primary-btn" (click)="toggleForm()">Add Hotel</button>
+
+  <!-- Hotel Form -->
+<div class="hotel-form" *ngIf="showForm">
+  <input type="text" placeholder="Hotel Name" [(ngModel)]="newHotels.Name" name="name" />
+  <input type="text" placeholder="Address" [(ngModel)]="newHotels.Address" name="address" />
+  <input type="text" placeholder="City" [(ngModel)]="newHotels.City" name="city" />
+  <input type="text" placeholder="Country" [(ngModel)]="newHotels.Country" name="country" />
+  <input type="text" placeholder="Description" [(ngModel)]="newHotels.Description" name="description" />
+  <input type="text" placeholder="Phone Number" [(ngModel)]="newHotels.PhoneNumber" name="phone" />
+  <input type="file" (change)="onFileSelected($event)" />
+
+  <button class="primary-btn" (click)="addHotel()">Submit</button>
+</div>
+
+
+  <!-- Search Bar -->
+  <input class="search-bar" type="text" placeholder="Search hotels..." [(ngModel)]="searchTerm" />
+
+  <!-- Hotel List -->
+ <div class="hotel-list">
+  <div class="hotel-card" *ngFor="let hotel of filteredHotels()">
+    <img [src]="hotel.path" alt="{{ hotel.name }}" class="hotel-image" />
+    <h3>{{ hotel.name }}</h3>
+   
+    <p><strong>Address:</strong> {{ hotel.address }}</p>
+    <p><strong>City:</strong> {{ hotel.city }}</p>
+    <p><strong>Country:</strong> {{ hotel.country }}</p>
+    <p><strong>Description:</strong> {{ hotel.description }}</p>
+    <p><strong>Phone:</strong> {{ hotel.phoneNumber }}</p>
+    <button class="update-btn" (click)="editHotel(hotel)">Update</button>
+    <div *ngif="!IfEditTrue">   
+   <input type="text" placeholder="Hotel Name" [(ngModel)]="newHotels.Name" name="name" />
+  <input type="text" placeholder="Address" [(ngModel)]="newHotels.Address" name="address" />
+  <input type="text" placeholder="City" [(ngModel)]="newHotels.City" name="city" />
+  <input type="text" placeholder="Country" [(ngModel)]="newHotels.Country" name="country" />
+  <input type="text" placeholder="Description" [(ngModel)]="newHotels.Description" name="description" />
+  <input type="text" placeholder="Phone Number" [(ngModel)]="newHotels.PhoneNumber" name="phone" />
+  <input type="file" (change)="onFileSelected($event)" />
+
+</div>
+    <button class="delete-btn" (click)="deleteHotel(hotel.id)">Delete</button>
+  </div>
+</div>
+
+</div>

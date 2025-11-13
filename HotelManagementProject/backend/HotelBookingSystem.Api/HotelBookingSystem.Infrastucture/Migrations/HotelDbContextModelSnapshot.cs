@@ -194,6 +194,37 @@ namespace HotelBookingSystem.Infrastucture.Migrations
                     b.ToTable("Payments");
                 });
 
+            modelBuilder.Entity("HotelBookingSystem.Domain.Entities.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("Revoked")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("RefreshTokens");
+                });
+
             modelBuilder.Entity("HotelBookingSystem.Domain.Entities.Review", b =>
                 {
                     b.Property<int>("Id")
@@ -324,6 +355,17 @@ namespace HotelBookingSystem.Infrastucture.Migrations
                         .IsRequired();
 
                     b.Navigation("Booking");
+                });
+
+            modelBuilder.Entity("HotelBookingSystem.Domain.Entities.RefreshToken", b =>
+                {
+                    b.HasOne("HotelBookingSystem.Domain.Entities.Employee", "Employee")
+                        .WithMany()
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
                 });
 
             modelBuilder.Entity("HotelBookingSystem.Domain.Entities.Review", b =>

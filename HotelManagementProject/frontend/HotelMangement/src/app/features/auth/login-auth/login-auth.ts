@@ -14,8 +14,12 @@ onSubmit(form:any){
   const loginDetails=form.value;
   this.api.Validation(loginDetails).subscribe({
     next:(res)=>{
-      
-      sessionStorage.setItem('JwtToken',res.result);
+     
+      sessionStorage.setItem('JwtToken',res.accessToken);
+      sessionStorage.setItem('refreshToken',res.refreshToken);
+      const token = sessionStorage.getItem('JwtToken');
+   
+      console.log( res)
        this.router.navigate(['/Admin-DashBoard'])
     },
     error:(err)=>{

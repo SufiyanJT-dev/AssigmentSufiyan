@@ -1,4 +1,4 @@
-using HotelBookingSystem.Api.Middleware;
+﻿using HotelBookingSystem.Api.Middleware;
 using HotelBookingSystem.Appilcation.Common;
 using HotelBookingSystem.Appilcation.Employee.Query;
 using HotelBookingSystem.Infrastructure.Data;
@@ -54,11 +54,15 @@ options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 builder.Services.AddDbContext<HotelDbContext>();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        policy => policy.AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader());
+    options.AddPolicy("AllowFrontend", builder =>
+    {
+        builder.WithOrigins("http://localhost:4200") // ✅ Your Angular app origin
+               .AllowAnyHeader()
+               .AllowAnyMethod()
+               .AllowCredentials(); // ✅ This is critical
+    });
 });
+
 
 builder.Services.AddMediatR(x =>
     x.RegisterServicesFromAssembly(Assembly.Load("HotelBookingSystem.Appilcation")));
@@ -70,7 +74,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowAll");
+app.UseCors("AllowFrontend");
 
 app.UseHttpsRedirection();
 app.UseAuthentication();

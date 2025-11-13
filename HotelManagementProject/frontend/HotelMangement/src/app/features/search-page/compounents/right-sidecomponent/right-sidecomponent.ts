@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Apicommuncation } from '../../../../shared/Api/apicommuncation';
 import { CommonModule } from '@angular/common';
 import { SerachServices } from '../../Shared/serach-services';
+import { FormValues } from './type/FormValues';
 
 @Component({
   selector: 'app-right-sidecomponent',
@@ -12,12 +13,15 @@ import { SerachServices } from '../../Shared/serach-services';
   styleUrls: ['./right-sidecomponent.scss'],
 })
 export class RightSidecomponent implements OnInit {
-  formValues: any = {};
+  formValues:FormValues = {
+    location: '',
+    checkInDate: '',
+    checkOutDate: ''
+  };
   results: any[] = [];
-  search: any[] = [];
-  
-   HotelNumber:any[]=[];
-   HotelValues:any[]=[];
+  search: any[] = [];  
+  HotelNumber:any[]=[];
+  HotelValues:any[]=[];
   constructor(
     private api: Apicommuncation,
     private location: Location,

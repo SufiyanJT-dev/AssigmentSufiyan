@@ -285,7 +285,7 @@
   },
   {
     "ContainingType": "HotelBookingSystem.Api.Controllers.EmployeeController",
-    "Method": "GetRoomTypesAsync",
+    "Method": "GetEmployeeAsync",
     "RelativePath": "api/Employee",
     "HttpMethod": "GET",
     "IsController": true,
@@ -388,6 +388,22 @@
   },
   {
     "ContainingType": "HotelBookingSystem.Api.Controllers.EmployeeController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Employee/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "HotelBookingSystem.Application.Employee.Command.RefreshTokenCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingSystem.Api.Controllers.EmployeeController",
     "Method": "ValidatingLogin",
     "RelativePath": "api/Employee/validate-login",
     "HttpMethod": "POST",
@@ -400,17 +416,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HotelBookingSystem.Api.Controllers.HotelController",
@@ -447,11 +453,6 @@
       },
       {
         "Name": "Country",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "path",
         "Type": "System.String",
         "IsRequired": false
       },

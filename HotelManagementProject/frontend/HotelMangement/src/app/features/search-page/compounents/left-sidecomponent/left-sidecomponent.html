@@ -8,19 +8,19 @@
   <label class="text-xs text-gray-500" for="Location">Destination</label>
 
   <!-- Toggle between view and input -->
-  <p *ngIf="!isEditing" class="font-medium">{{ Search[0].location}}</p>
-  <input *ngIf="isEditing" type="text" [(ngModel)]="Search[0].location" class="font-medium border rounded p-1" />
+  <p *ngIf="!isEditing" class="font-medium">{{ Search.location}}</p>
+  <input *ngIf="isEditing" type="text" [(ngModel)]="Search.location" class="font-medium border rounded p-1" />
 
   <div class="dateRow">
     <div class="dateItem">
       <label class="text-xs text-gray-500">Check-in</label>
-      <p *ngIf="!isEditing" class="font-medium">{{ Search[0].checkInDate }}</p>
-      <input *ngIf="isEditing" type="date" [(ngModel)]="Search[0].checkInDate" class="font-medium border rounded p-1" />
+      <p *ngIf="!isEditing" class="font-medium">{{ Search.checkInDate }}</p>
+      <input *ngIf="isEditing" type="date" [(ngModel)]="Search.checkInDate" class="font-medium border rounded p-1" />
     </div>
     <div class="dateItem">
       <label class="text-xs text-gray-500">Check-out</label>
-      <p *ngIf="!isEditing" class="font-medium">{{ Search[0].checkOutDate }}</p>
-      <input *ngIf="isEditing" type="date" [(ngModel)]="Search[0].checkOutDate" class="font-medium border rounded p-1" />
+      <p *ngIf="!isEditing" class="font-medium">{{ Search.checkOutDate }}</p>
+      <input *ngIf="isEditing" type="date" [(ngModel)]="Search.checkOutDate" class="font-medium border rounded p-1" />
     </div>
   </div>
 

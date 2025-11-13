@@ -694,24 +694,38 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/refresh-token": {
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenCommand"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -746,9 +760,6 @@
                   "Country": {
                     "type": "string"
                   },
-                  "path": {
-                    "type": "string"
-                  },
                   "PhoneNumber": {
                     "type": "string"
                   }
@@ -771,9 +782,6 @@
                   "style": "form"
                 },
                 "Country": {
-                  "style": "form"
-                },
-                "path": {
                   "style": "form"
                 },
                 "PhoneNumber": {
@@ -2439,6 +2447,16 @@
         ],
         "type": "integer",
         "format": "int32"
+      },
+      "RefreshTokenCommand": {
+        "type": "object",
+        "properties": {
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "Review": {
         "type": "object",

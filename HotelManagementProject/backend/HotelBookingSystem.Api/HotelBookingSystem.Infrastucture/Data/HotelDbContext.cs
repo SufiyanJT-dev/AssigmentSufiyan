@@ -26,6 +26,7 @@ namespace HotelBookingSystem.Infrastructure.Data
         public DbSet<Review> Review { get; set; }
         public DbSet<Rooms> Room { get; set; }
         public DbSet<RoomType> RoomTypes { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Booking>().Property(r => r.TotalAmount).HasPrecision(10, 2);

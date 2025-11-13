@@ -44,6 +44,7 @@ namespace HotelBookingSystem.Appilcation.Employee.Query
                 signingCredentials: creds
             );
 
+
             return Task.FromResult(new JwtSecurityTokenHandler().WriteToken(token));
         }
         public string GenerateRefreshToken()
@@ -52,6 +53,7 @@ namespace HotelBookingSystem.Appilcation.Employee.Query
             using var rng = RandomNumberGenerator.Create();
             rng.GetBytes(randomBytes);
             return Convert.ToBase64String(randomBytes);
+
         }
 
     }
