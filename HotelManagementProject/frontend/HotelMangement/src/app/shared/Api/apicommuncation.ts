@@ -26,21 +26,46 @@ export class Apicommuncation {
     console.log(headers)
     return this.http.get(this.api + 'Employee', { headers });
   }
-getAllHotel():Observable<any>{
-  return this.http.get(this.api+'Hotel')
-}
+  getAllHotel(): Observable<any> {
+    const token = sessionStorage.getItem('JwtToken');
+    const headers = new HttpHeaders({
+      'Authorization': `Bearer ${token}`
+    });
+    return this.http.get(this.api + 'Hotel', { headers });
+  }
 
   getRefershToken(): Observable<any> {
     const refreshToken = sessionStorage.getItem('refreshToken');
     return this.http.post(this.api + 'Employee/refresh-token', { refreshToken });
   }
-AddHotel(formData:FormData):Observable<any>{
-  return this.http.post(this.api+'Hotel',formData)
+  AddHotel(formData: FormData): Observable<any> {
+    return this.http.post(this.api + 'Hotel', formData)
+  }
+  DeleteHotel(id: number): Observable<any> {
+    return this.http.delete(`${this.api}Hotel/${id}`);
+  }
+  UpdateHotel(id: number, formData: FormData): Observable<any> {
+    return this.http.patch(`${this.api}Hotel/${id}`, formData);
+  }
+GetAllRoomsByHotelId(HotelId: number): Observable<any> {
+    return this.http.get(`${this.api}Room/hotel/${HotelId}`);
+  }
+getroomtypesbyId(id: number): Observable<any> {
+    return this.http.get(`${this.api}RoomType/${id}`);
 }
-DeleteHotel(id: number): Observable<any> {
-  return this.http.delete(`${this.api}Hotel/${id}`);
+getAllRoomType():Observable<any>{
+   return this.http.get(`${this.api}RoomType`);
 }
-
+DeleteRoom(id:number):Observable<any>{
+  return this.http.delete(`${this.api}Room/${id}`)
 }
-
-
+UpdateRoom(id:number,formData:FormData):Observable<any>{
+  return this.http.patch(`${this.api}Room/${id}`,formData)
+}
+AddRoom(formData:FormData):Observable<any>{
+return this.http.post(`${this.api}Room`,formData)
+}
+getAllBooking():Observable<any>{
+return this.http.get(`${this.api}Booking`);
+}
+}

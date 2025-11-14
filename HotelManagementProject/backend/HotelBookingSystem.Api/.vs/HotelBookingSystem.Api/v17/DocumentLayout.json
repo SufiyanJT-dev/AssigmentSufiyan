@@ -3,44 +3,160 @@
   "WorkspaceRootPath": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\validatepasswordquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\validatepasswordquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\validatepasswordqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\validatepasswordqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\getemployeebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\getemployeebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\roomtype\\query\\getroomtypebyroomidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\roomtype\\query\\getroomtypebyroomidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getallroomsbyhotelidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getallroomsbyhotelidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getallroomsbyhotelidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getallroomsbyhotelidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getroombyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getroombyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getroombyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getroombyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\dtos\\roomgetbyiddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\dtos\\roomgetbyiddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\dtos\\getallroombyhoteliddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\dtos\\getallroombyhoteliddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getallroomquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getallroomquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getallroomdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getallroomdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\filterqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\filterqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\deletehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\deletehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\getallemployeedetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\getallemployeedetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\command\\updateroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\command\\updateroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.infrastucture\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|solutionrelative:hotelbookingsystem.infrastucture\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\refreshtokencommandhandler .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,26 +167,6 @@
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\getallemployeedetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\getallemployeedetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getallroomdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getallroomdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\validatepasswordquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\validatepasswordquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\command\\deleteemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\deleteemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,28 +175,12 @@
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\command\\updateemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\command\\deleteroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\command\\deleteroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\command\\createroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\command\\createroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\getemployeebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\query\\getemployeebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,40 +195,12 @@
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\command\\updateroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getroombyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getroombyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getroombyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getroombyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\filterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\filterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\filterqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\filterqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.infrastucture\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|solutionrelative:hotelbookingsystem.infrastucture\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\query\\getallroomquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\query\\getallroomquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\employee\\query\\getallemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,16 +211,8 @@
       "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|solutionrelative:hotelbookingsystem.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E35DD95A-A086-4C53-8F29-0DFB4743003C}|HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,14 +243,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelBookingSystem.Infrastucture\\Migrations\\20251110114322_passwordhashed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\createhotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\deletehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\deletehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\customer\\command\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\customer\\command\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -229,14 +265,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\roomtype\\query\\getroomtypebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\roomtype\\query\\getroomtypebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117230B4-A574-49A8-9292-60A120CFA746}|HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj|solutionrelative:hotelbookingsystem.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\roomtype\\command\\updateroomtypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -265,10 +293,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\roomtype\\command\\createroomtypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\roomtype\\command\\createroomtypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\command\\updateroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\command\\updateroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\command\\deleteroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -329,10 +353,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\payment\\command\\updatepaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\payment\\command\\updatepaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\query\\getallhoteldetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -455,10 +475,6 @@
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\employee\\dtos\\employeegetbyiddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\command\\updatehotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\review\\query\\getallreviewdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\review\\query\\getallreviewdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -483,10 +499,6 @@
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\hotels\\query\\getallhoteldetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\rooms\\dtos\\roomgetbyiddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\rooms\\dtos\\roomgetbyiddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.appilcation\\roomtype\\dtos\\roomtypegetbyiddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B71AB523-E440-415E-9C93-B704F2BA5C8A}|HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj|solutionrelative:hotelbookingsystem.appilcation\\roomtype\\dtos\\roomtypegetbyiddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -509,6 +521,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.infrastucture\\migrations\\20251110114609_hasedpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|solutionrelative:hotelbookingsystem.infrastucture\\migrations\\20251110114609_hasedpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|c:\\users\\sufiyan.jt\\desktop\\dotnet\\assigmentsufiyan\\hotelmanagementproject\\backend\\hotelbookingsystem.api\\hotelbookingsystem.infrastucture\\migrations\\20251113043903_refershtokendb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF0871AD-D042-47B7-832E-B08E51162F82}|HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj|solutionrelative:hotelbookingsystem.infrastucture\\migrations\\20251113043903_refershtokendb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -518,97 +534,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:45:03.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T11:42:56.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateHotelCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T04:34:21.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CreateEmployeeCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Title": "GetEmployeeByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:45:50.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwFUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T10:05:34.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "validatePasswordQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T11:51:27.943Z",
+              "WhenOpened": "2025-11-06T09:49:49.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DeleteEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwDMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:46:21.868Z",
+              "WhenOpened": "2025-11-11T04:29:15.276Z",
               "EditorCaption": ""
             },
             {
@@ -626,163 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Hotel.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Hotel.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Hotel.cs",
-              "RelativeToolTip": "HotelBookingSystem.Domain\\Entities\\Hotel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T04:53:34.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:47:16.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RefreshTokenCommandHandler .cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T04:36:21.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RefreshTokenCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T04:36:45.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetAllEmployeeDetailsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:48:24.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetAllRoomDetailsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:32:29.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Program.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Program.cs",
-              "RelativeToolTip": "HotelBookingSystem.Api\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T11:06:16.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ValidatePasswordQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T11:48:43.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T04:29:15.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DeleteEmployeeCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:46:36.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UpdateEmployeeCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:47:28.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HotelController.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\HotelController.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\HotelController.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\HotelController.cs",
-              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\HotelController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswCcAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T04:44:00.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "RoomTypeController.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\RoomTypeController.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\RoomTypeController.cs",
@@ -795,176 +590,215 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DeleteRoomCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwFAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:32:07.216Z",
+              "WhenOpened": "2025-11-06T10:05:34.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Rooms.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Rooms.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Rooms.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Rooms.cs",
-              "RelativeToolTip": "HotelBookingSystem.Domain\\Entities\\Rooms.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GetRoomTypeByRoomIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByRoomIdQuery.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByRoomIdQuery.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByRoomIdQuery.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByRoomIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:39:46.245Z",
+              "WhenOpened": "2025-11-14T09:56:44.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CreateRoomCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ValidatePasswordQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\ValidatePasswordQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T08:19:26.613Z",
+              "WhenOpened": "2025-11-10T11:48:43.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GetEmployeeByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "validatePasswordQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\validatePasswordQueryHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:49:49.66Z",
+              "WhenOpened": "2025-11-10T11:51:27.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "GetEmployeeByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABYAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "GetAllRoomsByHotelIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQueryHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:49:29.245Z",
+              "WhenOpened": "2025-11-14T06:08:57.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GetRoomByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:32:52.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FilterQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:36:55.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\appsettings.json",
-              "RelativeToolTip": "HotelBookingSystem.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-11T04:24:06.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 11,
               "Title": "GetRoomByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQuery.cs",
               "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQuery.cs",
               "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQuery.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T09:32:44.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UpdateRoomCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAByAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "GetRoomByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetRoomByIdQueryHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:32:18.109Z",
+              "WhenOpened": "2025-11-05T09:32:52.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "FilterQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "GetAllRoomsByHotelIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQuery.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQuery.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQuery.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomsByHotelIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:37:37.544Z",
+              "WhenOpened": "2025-11-14T06:07:19.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20251113043903_refershtokendb.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
-              "RelativeToolTip": "HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABaAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T04:39:03.276Z",
+              "WhenOpened": "2025-11-05T09:54:50.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "HotelDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
-              "RelativeToolTip": "HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "RoomGetByIdDtos.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T11:05:47.864Z",
+              "WhenOpened": "2025-11-05T09:32:22.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 14,
+              "Title": "GetAllRoomByHotelIdDtos.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Dtos\\GetAllRoomByHotelIdDtos.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Dtos\\GetAllRoomByHotelIdDtos.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Dtos\\GetAllRoomByHotelIdDtos.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Dtos\\GetAllRoomByHotelIdDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:30:17.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllRoomQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:32:35.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Rooms.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Rooms.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Rooms.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Rooms.cs",
+              "RelativeToolTip": "HotelBookingSystem.Domain\\Entities\\Rooms.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:39:46.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAllRoomDetailsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomDetailsQueryHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:32:29.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T12:25:45.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Review.cs",
+              "RelativeToolTip": "HotelBookingSystem.Domain\\Entities\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:22:39.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\RefreshToken.cs",
@@ -977,7 +811,370 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:44:00.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:40:12.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Program.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Program.cs",
+              "RelativeToolTip": "HotelBookingSystem.Api\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:06:16.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateHotelCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:33:29.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FilterQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:37:37.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateHotelCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAawEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:34:00.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:47:16.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateHotelCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:34:56.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateHotelCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:34:21.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeleteHotelCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:03:53.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetAllEmployeeDetailsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeDetailsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:48:24.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateRoomCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:32:12.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateEmployeeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommandHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:45:50.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T11:42:56.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:45:03.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 35,
+              "Title": "HotelDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
+              "RelativeToolTip": "HotelBookingSystem.Infrastucture\\Data\\HotelDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:05:47.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DeleteEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:46:21.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Hotel.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Hotel.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Hotel.cs",
+              "RelativeToolTip": "HotelBookingSystem.Domain\\Entities\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:53:34.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RefreshTokenCommandHandler .cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommandHandler .cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T04:36:21.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RefreshTokenCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\RefreshTokenCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T04:36:45.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeleteEmployeeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\DeleteEmployeeCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:46:36.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateEmployeeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Command\\UpdateEmployeeCommandHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:47:28.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DeleteRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:32:07.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CreateRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommandHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:19:26.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GetEmployeeByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:49:29.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FilterQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\FilterQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:36:55.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\appsettings.json",
+              "RelativeToolTip": "HotelBookingSystem.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-11T04:24:06.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
+              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:32:18.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "20251113043903_refershtokendb.cs",
+              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
+              "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
+              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
+              "RelativeToolTip": "HotelBookingSystem.Infrastucture\\Migrations\\20251113043903_refershtokendb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T04:39:03.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Employee.cs",
@@ -985,24 +1182,11 @@
               "RelativeToolTip": "HotelBookingSystem.Domain\\Entities\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T04:53:41.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T04:53:41.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "GetAllRoomQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Query\\GetAllRoomQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:32:35.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "GetAllEmployeeQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Query\\GetAllEmployeeQuery.cs",
@@ -1014,7 +1198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\CustomerController.cs",
@@ -1026,7 +1210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 54,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Customer.cs",
@@ -1038,7 +1222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 53,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Payment.cs",
@@ -1050,31 +1234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "RoomController.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\RoomController.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\RoomController.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\RoomController.cs",
-              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwC0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:54:50.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Review.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Review.cs",
-              "RelativeToolTip": "HotelBookingSystem.Domain\\Entities\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T11:22:39.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 52,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\Entities\\Booking.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\Entities\\Booking.cs",
@@ -1086,7 +1246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 57,
               "Title": "JwtSettings.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Common\\JwtSettings.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Common\\JwtSettings.cs",
@@ -1098,7 +1258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "HotelBookingSystem.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj",
               "RelativeDocumentMoniker": "HotelBookingSystem.Domain\\HotelBookingSystem.Domain.csproj",
@@ -1110,7 +1270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
@@ -1122,7 +1282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 58,
               "Title": "HotelBookingSystem.Appilcation.csproj",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\HotelBookingSystem.Appilcation.csproj",
@@ -1134,7 +1294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 129,
               "Title": "20251110114609_hasedpassword.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251110114609_hasedpassword.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Migrations\\20251110114609_hasedpassword.cs",
@@ -1146,7 +1306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 59,
               "Title": "20251110114322_passwordhashed.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251110114322_passwordhashed.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Migrations\\20251110114322_passwordhashed.cs",
@@ -1157,19 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "DeleteHotelCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T06:03:53.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "CreateCustomerCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Command\\CreateCustomerCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Command\\CreateCustomerCommandHandler.cs",
@@ -1181,19 +1329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "CreateHotelCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\CreateHotelCommandHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T04:34:56.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 128,
               "Title": "20251110064050_pathwithdiscrptionadded.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251110064050_pathwithdiscrptionadded.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Migrations\\20251110064050_pathwithdiscrptionadded.cs",
@@ -1205,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "HotelBookingSystem.Api.csproj",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj",
               "RelativeDocumentMoniker": "HotelBookingSystem.Api\\HotelBookingSystem.Api.csproj",
@@ -1217,7 +1353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "CreateCustomerCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Command\\CreateCustomerCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Command\\CreateCustomerCommand.cs",
@@ -1229,7 +1365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "CreateBookingCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Command\\CreateBookingCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Command\\CreateBookingCommandHandler.cs",
@@ -1241,7 +1377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "CreateBookingCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Command\\CreateBookingCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Command\\CreateBookingCommand.cs",
@@ -1253,7 +1389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "GetRoomTypeByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByIdQueryHandler.cs",
@@ -1265,31 +1401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T11:40:12.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "HotelBookingSystem.Api\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwCkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T12:25:45.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "UpdateRoomTypeCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Command\\UpdateRoomTypeCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Command\\UpdateRoomTypeCommand.cs",
@@ -1301,7 +1413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 67,
               "Title": "UpdateRoomTypeCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Command\\UpdateRoomTypeCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Command\\UpdateRoomTypeCommandHandler.cs",
@@ -1313,7 +1425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 68,
               "Title": "GetRoomTypeByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByIdQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Query\\GetRoomTypeByIdQuery.cs",
@@ -1325,7 +1437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 69,
               "Title": "DeleteRoomTypeCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Command\\DeleteRoomTypeCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Command\\DeleteRoomTypeCommandHandler.cs",
@@ -1337,7 +1449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 70,
               "Title": "DeleteRoomTypeCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Command\\DeleteRoomTypeCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Command\\DeleteRoomTypeCommand.cs",
@@ -1349,7 +1461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 71,
               "Title": "CreateRoomTypeCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Command\\CreateRoomTypeCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Command\\CreateRoomTypeCommandHandler.cs",
@@ -1361,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 72,
               "Title": "CreateRoomTypeCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Command\\CreateRoomTypeCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Command\\CreateRoomTypeCommand.cs",
@@ -1373,19 +1485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "UpdateRoomCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Command\\UpdateRoomCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:32:12.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 73,
               "Title": "DeleteRoomCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\DeleteRoomCommand.cs",
@@ -1397,7 +1497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 74,
               "Title": "CreateRoomCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Command\\CreateRoomCommand.cs",
@@ -1409,7 +1509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 75,
               "Title": "DeleteReviewCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Command\\DeleteReviewCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Command\\DeleteReviewCommandHandler.cs",
@@ -1421,7 +1521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 76,
               "Title": "DeleteReviewCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Command\\DeleteReviewCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Command\\DeleteReviewCommand.cs",
@@ -1433,7 +1533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 77,
               "Title": "CreateReviewCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Command\\CreateReviewCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Command\\CreateReviewCommandHandler.cs",
@@ -1445,7 +1545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 78,
               "Title": "CreateReviewCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Command\\CreateReviewCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Command\\CreateReviewCommand.cs",
@@ -1457,7 +1557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 79,
               "Title": "UpdateReviewCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Command\\UpdateReviewCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Command\\UpdateReviewCommandHandler.cs",
@@ -1469,7 +1569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 80,
               "Title": "UpdateReviewCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Command\\UpdateReviewCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Command\\UpdateReviewCommand.cs",
@@ -1481,7 +1581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 81,
               "Title": "GetReviewByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Query\\GetReviewByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Query\\GetReviewByIdQueryHandler.cs",
@@ -1493,7 +1593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 82,
               "Title": "GetReviewByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Query\\GetReviewByIdQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Query\\GetReviewByIdQuery.cs",
@@ -1505,7 +1605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 83,
               "Title": "GetAllReviewDetailsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Query\\GetAllReviewDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Query\\GetAllReviewDetailsQueryHandler.cs",
@@ -1517,7 +1617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 84,
               "Title": "GetPaymentByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Query\\GetPaymentByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Query\\GetPaymentByIdQueryHandler.cs",
@@ -1529,7 +1629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 85,
               "Title": "GetPaymentByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Query\\GetPaymentByIdQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Query\\GetPaymentByIdQuery.cs",
@@ -1541,7 +1641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 86,
               "Title": "UpdatePaymentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Command\\UpdatePaymentCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Command\\UpdatePaymentCommandHandler.cs",
@@ -1553,7 +1653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 87,
               "Title": "UpdatePaymentCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Command\\UpdatePaymentCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Command\\UpdatePaymentCommand.cs",
@@ -1565,19 +1665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "UpdateHotelCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommandHandler.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T05:34:00.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 88,
               "Title": "GetAllHotelDetailsQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Query\\GetAllHotelDetailsQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Query\\GetAllHotelDetailsQuery.cs",
@@ -1589,7 +1677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 90,
               "Title": "CreatePaymentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Command\\CreatePaymentCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Command\\CreatePaymentCommandHandler.cs",
@@ -1601,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 89,
               "Title": "DeletePaymentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Command\\DeletePaymentCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Command\\DeletePaymentCommandHandler.cs",
@@ -1613,7 +1701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 91,
               "Title": "DeletePaymentCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Command\\DeletePaymentCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Command\\DeletePaymentCommand.cs",
@@ -1625,7 +1713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 92,
               "Title": "CreatePaymentCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Command\\CreatePaymentCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Command\\CreatePaymentCommand.cs",
@@ -1637,7 +1725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 93,
               "Title": "GetHotelByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Query\\GetHotelByIdQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Query\\GetHotelByIdQuery.cs",
@@ -1649,7 +1737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 94,
               "Title": "GetHotelByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Query\\GetHotelByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Query\\GetHotelByIdQueryHandler.cs",
@@ -1661,7 +1749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 95,
               "Title": "DeleteHotelCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\DeleteHotelCommand.cs",
@@ -1673,7 +1761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 96,
               "Title": "GetcustomerByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Query\\GetcustomerByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Query\\GetcustomerByIdQueryHandler.cs",
@@ -1685,7 +1773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 97,
               "Title": "GetCustomerByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Query\\GetCustomerByIdQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Query\\GetCustomerByIdQuery.cs",
@@ -1697,7 +1785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 98,
               "Title": "GetAllCustomersQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Query\\GetAllCustomersQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Query\\GetAllCustomersQueryHandler.cs",
@@ -1709,7 +1797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 99,
               "Title": "GetAllCustomersQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Query\\GetAllCustomersQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Query\\GetAllCustomersQuery.cs",
@@ -1721,7 +1809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 100,
               "Title": "UpdateCustomerCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Command\\UpdateCustomerCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Command\\UpdateCustomerCommandHandler.cs",
@@ -1733,7 +1821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 101,
               "Title": "UpdateCustomerCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Command\\UpdateCustomerCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Command\\UpdateCustomerCommand.cs",
@@ -1745,7 +1833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 102,
               "Title": "DeleteCustomerCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Command\\DeleteCustomerCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Command\\DeleteCustomerCommand.cs",
@@ -1757,7 +1845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 103,
               "Title": "DeleteCustomerCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Command\\DeleteCustomerCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Command\\DeleteCustomerCommandHandler.cs",
@@ -1769,7 +1857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 104,
               "Title": "GetAllBookingQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Query\\GetAllBookingQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Query\\GetAllBookingQuery.cs",
@@ -1781,7 +1869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 105,
               "Title": "UpdateBookingCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Command\\UpdateBookingCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Command\\UpdateBookingCommandHandler.cs",
@@ -1793,7 +1881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 106,
               "Title": "UpdateBookingCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Command\\UpdateBookingCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Command\\UpdateBookingCommand.cs",
@@ -1805,7 +1893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 107,
               "Title": "DeleteBookingCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Command\\DeleteBookingCommandHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Command\\DeleteBookingCommandHandler.cs",
@@ -1817,7 +1905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 108,
               "Title": "DeleteBookingCommand.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Command\\DeleteBookingCommand.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Command\\DeleteBookingCommand.cs",
@@ -1829,7 +1917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 109,
               "Title": "HotelBookingSystem.Infrastucture.csproj",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj",
               "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\HotelBookingSystem.Infrastucture.csproj",
@@ -1841,7 +1929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 110,
               "Title": "GetBookingByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Query\\GetBookingByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Query\\GetBookingByIdQueryHandler.cs",
@@ -1853,7 +1941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 111,
               "Title": "GetBookingByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Query\\GetBookingByIdQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Query\\GetBookingByIdQuery.cs",
@@ -1865,7 +1953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 112,
               "Title": "GetAllBookingQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Query\\GetAllBookingQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Query\\GetAllBookingQueryHandler.cs",
@@ -1877,7 +1965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 127,
               "Title": "20251107045443_moreintial.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251107045443_moreintial.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Migrations\\20251107045443_moreintial.cs",
@@ -1889,7 +1977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 113,
               "Title": "GetAllPaymentDetailsQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Query\\GetAllPaymentDetailsQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Query\\GetAllPaymentDetailsQuery.cs",
@@ -1901,7 +1989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 114,
               "Title": "GetAllPaymentDetailsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Query\\GetAllPaymentDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Query\\GetAllPaymentDetailsQueryHandler.cs",
@@ -1913,7 +2001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 115,
               "Title": "PaymentGetByIdDtos.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Payment\\Dtos\\PaymentGetByIdDtos.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Payment\\Dtos\\PaymentGetByIdDtos.cs",
@@ -1925,7 +2013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 116,
               "Title": "AddCustomerDtos.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Booking\\Dtos\\AddCustomerDtos.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Booking\\Dtos\\AddCustomerDtos.cs",
@@ -1937,7 +2025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 117,
               "Title": "EmployeeGetByIdDtos.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Employee\\Dtos\\EmployeeGetByIdDtos.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Employee\\Dtos\\EmployeeGetByIdDtos.cs",
@@ -1949,19 +2037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
-              "Title": "UpdateHotelCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Hotels\\Command\\UpdateHotelCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T05:33:29.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 118,
               "Title": "GetAllReviewDetailsQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Query\\GetAllReviewDetailsQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Query\\GetAllReviewDetailsQuery.cs",
@@ -1973,7 +2049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 119,
               "Title": "GetAllRoomTypeDetailsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Query\\GetAllRoomTypeDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Query\\GetAllRoomTypeDetailsQueryHandler.cs",
@@ -1985,7 +2061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 120,
               "Title": "GetAllRoomTypeQuery.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Query\\GetAllRoomTypeQuery.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Query\\GetAllRoomTypeQuery.cs",
@@ -1997,7 +2073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 121,
               "Title": "ReviewGetByIdDtos.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Review\\Dtos\\ReviewGetByIdDtos.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Review\\Dtos\\ReviewGetByIdDtos.cs",
@@ -2009,7 +2085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 122,
               "Title": "HotelGetByIdDtos.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Dtos\\HotelGetByIdDtos.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Dtos\\HotelGetByIdDtos.cs",
@@ -2021,7 +2097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 123,
               "Title": "GetAllHotelDetailsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Hotels\\Query\\GetAllHotelDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Hotels\\Query\\GetAllHotelDetailsQueryHandler.cs",
@@ -2033,19 +2109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
-              "Title": "RoomGetByIdDtos.cs",
-              "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
-              "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
-              "ToolTip": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
-              "RelativeToolTip": "HotelBookingSystem.Appilcation\\Rooms\\Dtos\\RoomGetByIdDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:32:22.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 124,
               "Title": "RoomTypeGetByIdDtos.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\RoomType\\Dtos\\RoomTypeGetByIdDtos.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\RoomType\\Dtos\\RoomTypeGetByIdDtos.cs",
@@ -2057,7 +2121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 125,
               "Title": "AddCustomerDtos.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Appilcation\\Customer\\Dtos\\AddCustomerDtos.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Appilcation\\Customer\\Dtos\\AddCustomerDtos.cs",
@@ -2069,7 +2133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 126,
               "Title": "20251104110717_intialdb.cs",
               "DocumentMoniker": "C:\\Users\\sufiyan.jt\\Desktop\\DotNet\\AssigmentSufiyan\\HotelManagementProject\\backend\\HotelBookingSystem.Api\\HotelBookingSystem.Infrastucture\\Migrations\\20251104110717_intialdb.cs",
               "RelativeDocumentMoniker": "HotelBookingSystem.Infrastucture\\Migrations\\20251104110717_intialdb.cs",

@@ -1,0 +1,75 @@
+<!-- src/app/room-types/room-types.component.html -->
+<div class="page">
+  <header class="page__header">
+    <h1>Room types</h1>
+    <p class="muted">Manage type name, description, and capacity (must be an integer greater than 1).</p>
+  </header>
+
+  <section class="card">
+    <h2 class="card__title">{{ editingId ? 'Edit room type' : 'Add room type' }}</h2>
+
+    <form [formGroup]="form" (ngSubmit)="submit()" class="form">
+      <div class="form__row">
+        <label for="typeName">Type name</label>
+        <input id="typeName" type="text" formControlName="typeName" placeholder="e.g., Deluxe" />
+        <div class="error" *ngIf="f.typeName.touched && f.typeName.invalid">
+          <span *ngIf="f.typeName.errors?.['required']">Type name is required.</span>
+          <span *ngIf="f.typeName.errors?.['maxLength']">Max 50 characters.</span>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <label for="description">Description</label>
+        <textarea id="description" rows="3" formControlName="description" placeholder="Short description"></textarea>
+        <div class="error" *ngIf="f.description.touched && f.description.invalid">
+          <span *ngIf="f.description.errors?.['required']">Description is required.</span>
+          <span *ngIf="f.description.errors?.['maxLength']">Max 200 characters.</span>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <label for="capacity">Capacity</label>
+        <input id="capacity" type="number" min="2" step="1" formControlName="capacity" />
+        <div class="error" *ngIf="f.capacity.touched && f.capacity.invalid">
+          <span *ngIf="f.capacity.errors?.['required']">Capacity is required.</span>
+          <span *ngIf="f.capacity.errors?.['notInteger']">Capacity must be an integer.</span>
+          <span *ngIf="f.capacity.errors?.['tooSmall']">Capacity must be greater than 1.</span>
+        </div>
+      </div>
+
+      <div class="form__actions">
+        <button type="submit" class="btn btn--primary">{{ editingId ? 'Update' : 'Add' }}</button>
+        <button type="button" class="btn btn--ghost" (click)="cancelEdit()" *ngIf="editingId">Cancel</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="card">
+    <h2 class="card__title">All room types</h2>
+
+    <div class="table">
+      <div class="table__head">
+        <div>Type name</div>
+        <div>Description</div>
+        <div>Capacity</div>
+        <div class="table__actions-col">Actions</div>
+      </div>
+
+      <div class="table__body" *ngIf="(roomTypes$ | async) as roomTypes; else empty">
+        <div class="table__row" *ngFor="let room of roomTypes">
+          <div class="table__cell">{{ room.typeName }}</div>
+          <div class="table__cell">{{ room.description }}</div>
+          <div class="table__cell">{{ room.capacity }}</div>
+          <div class="table__cell table__actions">
+            <button class="btn btn--small" (click)="startEdit(room)">Edit</button>
+            <button class="btn btn--small btn--danger" (click)="delete(room.id)">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #empty>
+      <p class="muted">No room types yet. Add your first one above.</p>
+    </ng-template>
+  </section>
+</div>

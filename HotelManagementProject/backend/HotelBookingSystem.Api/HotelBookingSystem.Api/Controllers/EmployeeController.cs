@@ -27,7 +27,7 @@ namespace HotelBookingSystem.Api.Controllers
         {
             return await mediator.Send(command);
         }
-        [Authorize]
+       
         [HttpGet]
         public async Task<List<Domain.Entities.Employee>> GetEmployeeAsync()
         {

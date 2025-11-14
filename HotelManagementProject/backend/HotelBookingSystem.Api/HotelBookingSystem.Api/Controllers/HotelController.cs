@@ -5,6 +5,7 @@ using HotelBookingSystem.Appilcation.Hotels.Query;
 using HotelBookingSystem.Appilcation.Rooms.Query;
 using HotelBookingSystem.Appilcation.RoomType.Query;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -42,6 +43,7 @@ namespace HotelBookingSystem.Api.Controllers
             command.Id= id;
             return await mediator.Send(command);
         }
+        [Authorize]
         [HttpGet]
         public async Task<List<Domain.Entities.Hotel>> GetAll()
         {

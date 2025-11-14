@@ -4,15 +4,17 @@ import { FormsModule, NgModel } from '@angular/forms';
 import { Apicommuncation } from '../../../../../shared/Api/apicommuncation';
 import { HotelDetails } from './Type/HotelDeatils';
 import { addHotelDeatils } from './Type/AddHotelDeatils';
+import { Router, RouterOutlet } from '@angular/router';
+import { log } from 'console';
+
 @Component({
   selector: 'app-hotel',
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule,RouterOutlet],
   templateUrl: './hotel.html',
   styleUrl: './hotel.scss',
 })
 export class Hotel {
-
-  IfEditTrue:boolean=false;
+  
   hotels: HotelDetails[] = [];
   newHotels: addHotelDeatils = {
     Name: '',
@@ -23,15 +25,20 @@ export class Hotel {
     PhoneNumber: '',
     Path: ''
   };
+  selectedHotel: any = {};
 
   selectedFile: File | null = null;
-  constructor(private api: Apicommuncation) { }
-  ngOnInit() {
-  this.getAllHotel();
+  showForm = false;
+  searchTerm = '';
 
+  constructor(private api: Apicommuncation, private router: Router) {}
+
+  ngOnInit() {
+    this.getAllHotel();
   }
-getAllHotel(){
-  this.api.getAllHotel().subscribe({
+
+  getAllHotel() {
+    this.api.getAllHotel().subscribe({
       next: (data: any[]) => {
         this.hotels = data.map(hotel => ({
           id: hotel.id,
@@ -43,20 +50,14 @@ getAllHotel(){
           phoneNumber: hotel.phoneNumber,
           path: 'https://localhost:7119' + hotel.path
         }));
-        console.log(this.hotels)
       },
-      error(err) {
-        console.log(err);
-      },
-    })
-}
-  showForm = false;
-  searchTerm = '';
-
-
+      error: err => console.error(err)
+    });
+  }
 
   toggleForm() {
     this.showForm = !this.showForm;
+    this.selectedHotel = null; // reset edit mode
   }
 
   addHotel() {
@@ -70,52 +71,83 @@ getAllHotel(){
     if (this.selectedFile) {
       formData.append('image', this.selectedFile);
     }
-    console.log(this.newHotels)
+
     this.api.AddHotel(formData).subscribe({
-      next(value) {
-        console.log(value);
-        
-      },
-      error(err) {
-        console.log(err);
-      },
       
-    })
-    this.getAllHotel();
+      next:(value)=> {
+        console.log(value);
+        this.ngOnInit()
+      },
+      error: err => console.error(err)
+      
+    });
+ this.router.navigate([]);
+    this.newHotels = { Name:'', Address:'', City:'', Country:'', Description:'', PhoneNumber:'', Path:'' };
+    this.showForm = false;
   }
+
   onFileSelected(event: Event) {
     const input = event.target as HTMLInputElement;
     if (input.files && input.files.length > 0) {
       this.selectedFile = input.files[0];
-
-      this.newHotels.Path = input.files[0].name;
+      if (this.selectedHotel) {
+        this.selectedHotel.path = input.files[0].name;
+      } else {
+        this.newHotels.Path = input.files[0].name;
+      }
     }
   }
 
+  editHotel(hotel: HotelDetails) {
+    this.selectedHotel = { ...hotel }; // copy data
+  }
 
+  saveHotel() {
+  if (!this.selectedHotel) return;
+
+  const formData = new FormData();
+
+  // Required fields
+  formData.append('Name', this.selectedHotel.name);
+  formData.append('Address', this.selectedHotel.address);
+  formData.append('City', this.selectedHotel.city);
+  formData.append('Country', this.selectedHotel.country);
+  formData.append('PhoneNumber', this.selectedHotel.phoneNumber);
+
+  // Add description
+  formData.append('Description', this.selectedHotel.description);
+
+  // Add image if selected
+  if (this.selectedFile) {
+    formData.append('Image', this.selectedFile);
+  }
+
+  // Call API with id + formData
+  this.api.UpdateHotel(this.selectedHotel.id, formData).subscribe({
+    next: () => {
+      this.getAllHotel();
+      this.selectedHotel = null;
+      this.selectedFile = null;
+    },
+    error: err => console.error(err)
+  });
+}
+
+
+  deleteHotel(id: number) {
+    this.api.DeleteHotel(id).subscribe({
+     
+      
+      next: () => this.getAllHotel(),
+      error: err => console.error(err)
+    });
+  }
+goToRoomList(hotelId: number) {
+    this.router.navigate(['Admin-DashBoard/room'], { queryParams: { hotelId } });
+  }
   filteredHotels() {
     return this.hotels.filter(h =>
       h.name.toLowerCase().includes(this.searchTerm.toLowerCase())
     );
   }
-
-  editHotel(hotel: any) {
-this.IfEditTrue=true
-    console.log('Edit', hotel);
-  }
-
-  deleteHotel(id: number) {
-    this.api.DeleteHotel(id).subscribe({
-      next: () => {
-        this.hotels = this.hotels.filter(h => h.id !== id);
-        console.log('Hotel deleted successfully');
-       this.getAllHotel();
-      },
-      error: (err) => {
-        console.error('Error deleting hotel:', err);
-      }
-    });
-  
-  }
 }
-

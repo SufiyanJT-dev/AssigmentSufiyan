@@ -47,5 +47,12 @@ namespace HotelBookingSystem.Api.Controllers
         command.Id = id;
             return mediator.Send(command);
         }
+        [HttpGet("hotel/{hotelId}")]
+        public async Task<List<Domain.Entities.Rooms>> GetRoomByHotelId(int hotelId)
+        {
+         GetAllRoomsByHotelIdQuery query= new GetAllRoomsByHotelIdQuery();
+            query.HotelId = hotelId;
+            return await mediator.Send(query);
+        }
     }
 }

@@ -44,6 +44,27 @@ namespace HotelBookingSystem.Appilcation.Hotels.Command
             hotel.PhoneNumber = !string.IsNullOrWhiteSpace(request.PhoneNumber) && request.PhoneNumber != "string"
                 ? request.PhoneNumber
                 : hotel.PhoneNumber;
+            hotel.Description = !string.IsNullOrWhiteSpace(request.Description) && request.Description != "string"
+                ? request.Description
+                : hotel.Description;
+            var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+            if (!Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
+            
+            if (request.Image != null)
+            {
+                
+                if (!Directory.Exists(folder))
+                    Directory.CreateDirectory(folder);
+
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(request.Image.FileName);
+                var filePath = Path.Combine(folder, fileName);
+
+                using var stream = new FileStream(filePath, FileMode.Create);
+                await request.Image.CopyToAsync(stream, cancellationToken);
+
+                hotel.path = $"/images/{fileName}";
+            }
 
             int result = await hotelDbContext.SaveChangesAsync(cancellationToken);
             return result > 0 ? "Update Successful" : "Update Not Successful";

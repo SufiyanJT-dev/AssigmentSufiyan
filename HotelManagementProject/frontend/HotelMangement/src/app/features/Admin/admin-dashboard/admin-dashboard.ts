@@ -19,35 +19,5 @@ export class AdminDashboard {
       this.router.navigate(['/login']);
     }
   }
-  GetEmployeeDetails() {
-    this.api.getAllEmployee().subscribe({
-      next: (res) => {
-        console.log(res.status);
-        console.log(res);
-      },
-      error: (err) => {
-        console.log(err);
-        if (err.status == 401) {
-          this.api.getRefershToken().subscribe({
-            next: (res) => {
-              console.log(res.status);
-              sessionStorage.setItem('JwtToken', res.accessToken)
-              console.log(res.accessToken);
-              this.api.getAllEmployee().subscribe({
-                next: (res) => {
-                  console.log(res.status);
-                  console.log(res);
-                }
-              },)
-            },
-            error: (err) => {
-              console.log(err);
-            }
-          })
-        }
-
-      }
-    })
-
-  }
+  
 }

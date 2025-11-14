@@ -1,0 +1,159 @@
+/* src/app/room-types/room-types.component.scss */
+$page-padding: 24px;
+$border: 1px solid #e5e7eb;
+$radius: 10px;
+$text: #0f172a;
+$muted: #64748b;
+$primary: #2563eb;
+$danger: #dc2626;
+$bg: #f8fafc;
+$white: #ffffff;
+
+.page {
+  padding: $page-padding;
+  color: $text;
+  background: $bg;
+  min-height: 100vh;
+
+  &__header {
+    margin-bottom: 16px;
+
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .muted {
+      color: $muted;
+      margin: 0;
+    }
+  }
+}
+
+.card {
+  background: $white;
+  border: $border;
+  border-radius: $radius;
+  padding: 16px;
+  margin-bottom: 16px;
+
+  &__title {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+
+  &__row {
+    display: grid;
+    gap: 6px;
+
+    label {
+      font-weight: 600;
+    }
+
+    input,
+    textarea {
+      border: $border;
+      border-radius: 8px;
+      padding: 10px;
+      font: inherit;
+      transition: border-color 0.2s;
+
+      &:focus {
+        outline: none;
+        border-color: $primary;
+      }
+    }
+
+    .error {
+      color: $danger;
+      font-size: 12px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+.btn {
+  border: $border;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: $white;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+
+  &--primary {
+    background: $primary;
+    color: $white;
+    border-color: transparent;
+
+    &:hover {
+      box-shadow: 0 3px 12px rgba(37, 99, 235, 0.3);
+    }
+  }
+
+  &--ghost {
+    background: transparent;
+  }
+
+  &--danger {
+    background: $danger;
+    color: $white;
+    border-color: transparent;
+  }
+
+  &--small {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}
+
+.table {
+  border: $border;
+  border-radius: $radius;
+  overflow: hidden;
+
+  &__head,
+  &__row {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 0.6fr 0.8fr;
+    align-items: center;
+  }
+
+  &__head {
+    background: #f1f5f9;
+    font-weight: 600;
+    padding: 10px 12px;
+
+    .table__actions-col {
+      text-align: right;
+    }
+  }
+
+  &__body .table__row {
+    border-top: $border;
+
+    .table__cell {
+      padding: 10px 12px;
+    }
+
+    .table__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+  }
+}
+
+.muted {
+  color: $muted;
+}
