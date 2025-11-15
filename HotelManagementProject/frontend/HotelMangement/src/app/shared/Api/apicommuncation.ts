@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { addHotelDeatils } from '../../features/Admin/admin-dashboard/pages/hotel/Type/AddHotelDeatils';
 import { RoomType } from '../../features/Admin/admin-dashboard/pages/room-type/room-type';
 import { BookingDetails } from '../../features/Admin/admin-dashboard/pages/booking/booking';
+import { RoomTypeForAddData } from '../../features/Admin/admin-dashboard/pages/room-type/Type/RoomType';
+import { EmployeeDetails } from '../../features/Admin/admin-dashboard/pages/employees/type/EmployeeDetails';
 @Injectable({
   providedIn: 'root',
 })
@@ -35,7 +37,9 @@ export class Apicommuncation {
     });
     return this.http.get(this.api + 'Hotel', { headers });
   }
-
+getFilteredHotelRooms(serach:any):Observable<any>{
+  return this.http.post(this.api+"Room/room",serach)
+}
   getRefershToken(): Observable<any> {
     const refreshToken = sessionStorage.getItem('refreshToken');
     return this.http.post(this.api + 'Employee/refresh-token', { refreshToken });
@@ -73,7 +77,7 @@ return this.http.get(`${this.api}Booking`);
 DeleteRoomType(id:number):Observable<any>{
 return this.http.delete(`${this.api}RoomType/${id}`,)
 }
-AddRoomType(formData:RoomType):Observable<any>{
+AddRoomType(formData:RoomTypeForAddData):Observable<any>{
   return this.http.post(`${this.api}RoomType`,formData);
 }
 UpdateRoomType(id:number,formData:RoomType):Observable<any>{
@@ -100,5 +104,20 @@ updateBooking(id: number, booking: BookingDetails): Observable<boolean> {
 // DELETE booking
 deleteBooking(id: number): Observable<boolean> {
   return this.http.delete<boolean>(`${this.baseUrl}Booking/${id}`);
+}
+GetAllEmployeeByHotelId(HotelId:number):Observable<any>{
+  return this.http.get(`${this.baseUrl}Employee/hotel/${HotelId}`);
+}
+AddEmploee(formData:any):Observable<any>{
+  return this.http.post(`${this.baseUrl}Employee/`,formData);
+}
+UpdateEmploee(id:number,formData:EmployeeDetails):Observable<any>{
+  return this.http.patch(`${this.baseUrl}Employee/${id}`,formData);
+}
+deleteEmplyee(id:number):Observable<any>{
+  return this.http.delete(`${this.baseUrl}Employee/${id}`);
+}
+bookRoom(bookingPayload:any):Observable<any>{
+return this.http.post(`${this.baseUrl}`,bookingPayload)
 }
 }

@@ -1,19 +1,98 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Navbar } from '../../../core/Layout/navbar/navbar';
+import { SerachServices } from '../../search-page/Shared/serach-services';
+import { FormValues } from '../../search-page/compounents/right-sidecomponent/type/FormValues';
+import { Apicommuncation } from '../../../shared/Api/apicommuncation';
+import { Observable } from 'rxjs';
+import { CommonModule } from '@angular/common';
+
+// Strongly typed Room interface
+export interface Room {
+  id: number;
+  hotelId: number;
+  roomNumber: string;
+  roomTypeId: number;
+  roomType?: string | null;
+  pricePerNight: number;
+  status: string;
+  bookings?: Booking[];
+}
+
+export interface Booking {
+  id: number;
+  checkInDate: string;
+  checkOutDate: string;
+  status: string;
+}
 
 @Component({
   selector: 'app-hoteldetails',
-  imports: [],
+  imports: [Navbar,CommonModule],
   templateUrl: './hoteldetails.html',
-  styleUrl: './hoteldetails.scss',
+  styleUrls: ['./hoteldetails.scss'],
 })
 export class Hoteldetails {
-  constructor(private route :ActivatedRoute){}
-selectedHotelDetails:any=[];
-ngOnInit(){
-  this.route.queryParams.subscribe(params=>{
-    this.selectedHotelDetails=params['hotelDetails'];
-    console.log(this.selectedHotelDetails);
-  })
+  selectedHotelDetails: any = {};
+  searchData: FormValues | null = null;
+  hotelId: number = 0;
+
+  rooms: Room[] = [];
+  loading = false;
+  error: string | null = null;
+
+  constructor(
+    private route: ActivatedRoute,
+    private serachServices: SerachServices,
+    private api: Apicommuncation
+  ) {}
+
+  ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      if (params['hotelDetails']) {
+        this.selectedHotelDetails = JSON.parse(params['hotelDetails']);
+        this.hotelId = this.selectedHotelDetails?.id || 0;
+      }
+    });
+
+    this.searchData = this.serachServices.getData();
+
+    const payload = {
+      hotelId: this.hotelId,
+      checkInDate: this.searchData?.checkInDate,
+      checkOutDate: this.searchData?.checkOutDate,
+    };
+
+    this.loading = true;
+    this.api.getFilteredHotelRooms(payload).subscribe({
+      next: (value: Room[]) => {
+        this.rooms = value;
+        this.loading = false;
+      },
+      error: (err) => {
+        this.error = 'Failed to fetch rooms';
+        this.loading = false;
+      }
+    });
+  }
+
+  // Booking action
+  bookRoom(room: Room): void {
+    const bookingPayload = {
+      roomId: room.id,
+      hotelId: room.hotelId,
+      checkInDate: this.searchData?.checkInDate,
+      checkOutDate: this.searchData?.checkOutDate,
+    };
+
+    this.api.bookRoom(bookingPayload).subscribe({
+      next: (res) => {
+        alert(`Room ${room.roomNumber} booked successfully!`);
+      },
+      error: (err) => {
+        alert(`Booking failed for Room ${room.roomNumber}`);
+      }
+    });
+  }
 }
-}
+

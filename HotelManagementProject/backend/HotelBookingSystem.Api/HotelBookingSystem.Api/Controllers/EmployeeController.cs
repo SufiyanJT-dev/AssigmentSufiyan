@@ -108,5 +108,25 @@ namespace HotelBookingSystem.Api.Controllers
                 return Unauthorized(ex.Message);
             }
         }
+        //public async Task<IActionResult> Logout()
+        //{
+        //    Response.Cookies.Append("refreshToken", "", new CookieOptions
+        //    {
+        //        HttpOnly = true,
+        //        Secure = false,
+        //        SameSite = SameSiteMode.Lax,
+        //        Path = "/",
+        //        Expires = DateTimeOffset.UtcNow.AddDays(-1)
+        //    });
+        //    return Ok("Logged out successfully.");
+        //}
+        [HttpGet("hotel/{hotelId}")]
+        public async Task<IActionResult> GetByHotelId(int hotelId)
+        {
+           GetAllEmployeeByHotelIdQuery query= new GetAllEmployeeByHotelIdQuery();
+            query.HotelId = hotelId;
+            var employees = await mediator.Send(query);
+            return Ok(employees);
+        }
     }
 }

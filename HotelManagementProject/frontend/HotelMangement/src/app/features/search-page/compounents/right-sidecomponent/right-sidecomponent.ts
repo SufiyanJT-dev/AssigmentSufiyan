@@ -25,7 +25,7 @@ export class RightSidecomponent implements OnInit {
   constructor(
     private api: Apicommuncation,
     private location: Location,
-    private serachServices: SerachServices,
+    
     private route: ActivatedRoute ,
     private router:Router
   ) {}

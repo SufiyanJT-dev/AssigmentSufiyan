@@ -388,6 +388,22 @@
   },
   {
     "ContainingType": "HotelBookingSystem.Api.Controllers.EmployeeController",
+    "Method": "GetByHotelId",
+    "RelativePath": "api/Employee/hotel/{hotelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingSystem.Api.Controllers.EmployeeController",
     "Method": "RefreshToken",
     "RelativePath": "api/Employee/refresh-token",
     "HttpMethod": "POST",
@@ -1060,6 +1076,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "HotelBookingSystem.Api.Controllers.RoomController",
+    "Method": "GetAvailableRooms",
+    "RelativePath": "api/Room/room",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "HotelBookingSystem.Appilcation.Rooms.Query.FilterDataByHotelIdQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HotelBookingSystem.Api.Controllers.RoomTypeController",

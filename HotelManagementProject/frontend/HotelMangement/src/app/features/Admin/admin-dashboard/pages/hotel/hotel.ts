@@ -142,6 +142,9 @@ export class Hotel {
       error: err => console.error(err)
     });
   }
+  GotoEmployee(hotelId: number){
+this.router.navigate(['Admin-DashBoard/employees'], { queryParams: { hotelId } });
+  }
 goToRoomList(hotelId: number) {
     this.router.navigate(['Admin-DashBoard/room'], { queryParams: { hotelId } });
   }

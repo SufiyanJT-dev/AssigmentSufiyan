@@ -36,6 +36,7 @@ export class LeftSidecomponent implements OnInit {
         checkOutDate: params['checkOutDate'] || ''
       };
     });
+    this.serachService.setData(this.Search);
   }
 
   toggleEdit() {
@@ -43,9 +44,7 @@ export class LeftSidecomponent implements OnInit {
     
   }
 
-  sendData() {
-    this.serachService.setData(this.Search);
-  }
+ 
 
   applyChanges() {
     this.isEditing = false;

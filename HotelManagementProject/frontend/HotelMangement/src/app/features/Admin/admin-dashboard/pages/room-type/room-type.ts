@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Apicommuncation } from '../../../../../shared/Api/apicommuncation'; // Adjust path if needed
 import { Router } from '@angular/router';
 import { log } from 'node:console';
+import { RoomTypeForAddData } from './Type/RoomType';
 
 // Define the RoomType interface based on your model
 export interface RoomType {
@@ -12,6 +13,7 @@ export interface RoomType {
   description: string;
   capacity: number;
 }
+
 
 @Component({
   selector: 'app-room-types', // The selector for this component
@@ -24,8 +26,8 @@ export class RoomTypesComponent implements OnInit {
   roomTypes: RoomType[] = [];
   showForm: boolean = false;
   isEditMode: boolean = false;
+  FormDataForAddRoomType:RoomTypeForAddData[]=[];
   
-  // Use a helper function to initialize formData
   formData: RoomType = this.createEmptyForm(); 
 
   constructor(private api: Apicommuncation, private router: Router) {}
@@ -50,12 +52,15 @@ export class RoomTypesComponent implements OnInit {
   createEmptyForm(): RoomType {
     return { id: 0, typeName: '', description: '', capacity: 1 };
   }
+  createEmptyFormDataForAdd():RoomTypeForAddData{
+    return {  typeName: '', description: '', capacity: 1 };
+  }
 
   /** Shows the 'Add Room Type' form */
   onAddRoomType() {
     this.isEditMode = false;
-    this.formData = this.createEmptyForm();
-    this.showForm = true;
+    this.FormDataForAddRoomType = [this.createEmptyFormDataForAdd()]
+    this.showForm = true; 
   }
 
   /** Fills the form with data from the selected room type for editing */
@@ -103,12 +108,20 @@ export class RoomTypesComponent implements OnInit {
       });
     } else {
       // We assume your API service has an 'addRoomType' method
-      this.api.AddRoomType(this.formData).subscribe({
+       const addPayload = {
+        typeName: this.formData.typeName,
+        description: this.formData.description,
+        capacity: this.formData.capacity,
+      };
+      this.api.AddRoomType(addPayload).subscribe({
         next: () => {
           this.showForm = false;
           this.loadRoomTypes();
+          console.log(addPayload);
         },
-        error: (err: any) => console.error('Error adding room type:', err)
+        error: (err: any) => {console.error('Error adding room type:', err)
+            console.log(addPayload);
+        }
       });
     }
   }

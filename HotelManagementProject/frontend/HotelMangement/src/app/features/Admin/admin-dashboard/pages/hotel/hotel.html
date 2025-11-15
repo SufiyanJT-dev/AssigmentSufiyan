@@ -31,7 +31,7 @@
       <button (click)="editHotel(hotel)">Update</button>
       <button (click)="deleteHotel(hotel.id)">Delete</button>
       <button (click)="goToRoomList(hotel.id)">RoomList</button>
-
+      <button (click)="GotoEmployee(hotel.id)">Assign Employee</button>
       <!-- Inline Edit Form -->
       <div *ngIf="selectedHotel?.id === hotel.id">
         <input type="text" [(ngModel)]="selectedHotel.name" />

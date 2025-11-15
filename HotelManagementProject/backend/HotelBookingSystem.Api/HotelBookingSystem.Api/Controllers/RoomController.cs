@@ -54,5 +54,18 @@ namespace HotelBookingSystem.Api.Controllers
             query.HotelId = hotelId;
             return await mediator.Send(query);
         }
+        [HttpPost("room")]
+   
+        public async Task<IActionResult> GetAvailableRooms(FilterDataByHotelIdQuery query)
+        {
+
+
+           
+        
+
+            var rooms = await mediator.Send(query);
+            return Ok(rooms);
+        }
+
     }
 }
