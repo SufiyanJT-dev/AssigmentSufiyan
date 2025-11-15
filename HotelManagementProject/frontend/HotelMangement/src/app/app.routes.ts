@@ -4,11 +4,12 @@ import { Hoteldetails } from './features/Hotels/hoteldetails/hoteldetails';
 import { LoginAuth } from './features/auth/login-auth/login-auth';
 import { AdminDashboard } from './features/Admin/admin-dashboard/admin-dashboard';
 import { SearchPage } from './features/search-page/search-page';
-import { Booking } from './features/Admin/admin-dashboard/pages/booking/booking';
+
 import { Employees } from './features/Admin/admin-dashboard/pages/employees/employees';
 import { Hotel } from './features/Admin/admin-dashboard/pages/hotel/hotel';
 import { Rooms } from './features/Admin/admin-dashboard/pages/rooms/rooms';
-import { RoomType } from './features/Admin/admin-dashboard/pages/room-type/room-type';
+import { RoomTypesComponent } from './features/Admin/admin-dashboard/pages/room-type/room-type';
+import { BookingComponent } from './features/Admin/admin-dashboard/pages/booking/booking';
 
 
 export const routes: Routes = [
@@ -22,13 +23,13 @@ export const routes: Routes = [
         path: 'Admin-DashBoard',
         component: AdminDashboard,
         children: [
-            { path: 'booking', component: Booking },
+            { path: 'booking', component: BookingComponent },
             { path: 'employees', component: Employees },
             {
                 path: 'hotel', component: Hotel
             },
             { path: 'room', component: Rooms },
-            {path:'RoomType',component:RoomType}
+            {path:'RoomType',component:RoomTypesComponent}
 
 
         ]

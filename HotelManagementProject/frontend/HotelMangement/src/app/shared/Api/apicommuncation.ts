@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { addHotelDeatils } from '../../features/Admin/admin-dashboard/pages/hotel/Type/AddHotelDeatils';
+import { RoomType } from '../../features/Admin/admin-dashboard/pages/room-type/room-type';
+import { BookingDetails } from '../../features/Admin/admin-dashboard/pages/booking/booking';
 @Injectable({
   providedIn: 'root',
 })
@@ -10,7 +12,7 @@ export class Apicommuncation {
 
 
   private api = "https://localhost:7119/api/"
-
+  private baseUrl="https://localhost:7119/api/"
   Validation(loginDetails: any): Observable<any> {
     return this.http.post(this.api + 'Employee/validate-login', loginDetails, { withCredentials: true });
   }
@@ -67,5 +69,36 @@ return this.http.post(`${this.api}Room`,formData)
 }
 getAllBooking():Observable<any>{
 return this.http.get(`${this.api}Booking`);
+}
+DeleteRoomType(id:number):Observable<any>{
+return this.http.delete(`${this.api}RoomType/${id}`,)
+}
+AddRoomType(formData:RoomType):Observable<any>{
+  return this.http.post(`${this.api}RoomType`,formData);
+}
+UpdateRoomType(id:number,formData:RoomType):Observable<any>{
+  return this.http.patch(`${this.api}RoomType/${id}`,formData)
+}
+// GET all bookings
+
+
+// GET single booking by ID
+getBookingById(id: number): Observable<BookingDetails> {
+  return this.http.get<BookingDetails>(`${this.baseUrl}/${id}`);
+}
+
+// POST create new booking
+createBooking(booking: BookingDetails): Observable<number> {
+  return this.http.post<number>(`${this.baseUrl}Booking/`, booking);
+}
+
+// PATCH update existing booking
+updateBooking(id: number, booking: BookingDetails): Observable<boolean> {
+  return this.http.patch<boolean>(`${this.baseUrl}Booking/${id}`, booking);
+}
+
+// DELETE booking
+deleteBooking(id: number): Observable<boolean> {
+  return this.http.delete<boolean>(`${this.baseUrl}Booking/${id}`);
 }
 }

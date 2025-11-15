@@ -43,7 +43,7 @@ namespace HotelBookingSystem.Api.Controllers
             command.Id= id;
             return await mediator.Send(command);
         }
-        [Authorize]
+      
         [HttpGet]
         public async Task<List<Domain.Entities.Hotel>> GetAll()
         {

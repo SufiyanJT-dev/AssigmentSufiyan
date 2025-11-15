@@ -1,68 +1,115 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { Apicommuncation } from '../../../../../shared/Api/apicommuncation'; // Adjust path if needed
+import { Router } from '@angular/router';
+import { log } from 'node:console';
+
+// Define the RoomType interface based on your model
+export interface RoomType {
+  id: number;
+  typeName: string;
+  description: string;
+  capacity: number;
+}
 
 @Component({
-  selector: 'app-room-type',
-  imports: [CommonModule],
+  selector: 'app-room-types', // The selector for this component
+  standalone: true, // Assuming Angular 17+ with standalone
+  imports: [CommonModule, FormsModule],
   templateUrl: './room-type.html',
-  styleUrl: './room-type.scss',
+  styleUrls: ['./room-type.scss'],
 })
-export class RoomType {
-ngOninit(){
+export class RoomTypesComponent implements OnInit {
+  roomTypes: RoomType[] = [];
+  showForm: boolean = false;
+  isEditMode: boolean = false;
+  
+  // Use a helper function to initialize formData
+  formData: RoomType = this.createEmptyForm(); 
 
-}
-roomTypes$!: Observable<RoomType[]>;
-  editingId: string | null = null;
+  constructor(private api: Apicommuncation, private router: Router) {}
 
-  // form = this.fb.group({
-  //   typeName: ['', [Validators.required, Validators.maxLength(50)]],
-  //   description: ['', [Validators.required, Validators.maxLength(200)]],
-  //   capacity: [2, [Validators.required, capacityValidator]],
-  // });
-
-  // constructor(private fb: FormBuilder, private service: RoomTypeService) {}
-
-  ngOnInit(): void {
-    // this.roomTypes$ = this.service.getAll();
+  ngOnInit() {
+    // This is the function you asked about
+    this.loadRoomTypes();
   }
 
-  get f() {
-    return ;
+  /** Fetches all room types from the API */
+  loadRoomTypes() {
+    // We assume your API service has a 'getAllRoomType' method
+    this.api.getAllRoomType().subscribe({
+      next: (res) => {
+        this.roomTypes = res;
+      },
+      error: (err) => console.error('Error loading room types:', err)
+    });
   }
 
-  startEdit(room: RoomType): void {
-    // this.editingId = room.id;
-    // this.form.setValue({
-    //   typeName: room.typeName,
-    //   description: room.description,
-    //   capacity: room.capacity,
-    // });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  /** Resets the form to its default state */
+  createEmptyForm(): RoomType {
+    return { id: 0, typeName: '', description: '', capacity: 1 };
   }
 
-  cancelEdit(): void {
-    this.editingId = null;
-    // this.form.reset({ typeName: '', description: '', capacity: 2 });
+  /** Shows the 'Add Room Type' form */
+  onAddRoomType() {
+    this.isEditMode = false;
+    this.formData = this.createEmptyForm();
+    this.showForm = true;
   }
 
-  submit(): void {
-    // if (this.form.invalid) {
-    //   this.form.markAllAsTouched();
-    //   return;
-    // }
-
-    // const value = this.form.getRawValue();
-    // if (this.editingId) {
-    //   this.service.update(this.editingId, value as Omit<RoomType, 'id'>);
-    // } else {
-    //   this.service.add(value as Omit<RoomType, 'id'>);
-    // }
-    // this.cancelEdit();
+  /** Fills the form with data from the selected room type for editing */
+  onEditRoomType(roomType: RoomType) {
+    this.isEditMode = true;
+    // Create a copy to prevent changing table data during edit
+    this.formData = { ...roomType }; 
+    this.showForm = true;
   }
 
-  delete(id: string): void {
-    // this.service.delete(id);
-    // if (this.editingId===id) this.cancelEdit();
+  /** Deletes a room type after confirmation */
+  onDeleteRoomType(id: number) {
+    if (confirm('Are you sure you want to delete this room type?')) {
+      // We assume your API service has a 'deleteRoomType' method
+      this.api.DeleteRoomType(id).subscribe({
+        next: () => {
+
+          this.loadRoomTypes(); // Refresh the list
+        },
+        error: (err: any) => console.error('Error deleting room type:', err)
+      });
+    }
+  }
+
+  /** Hides the form */
+  onCancel() {
+    this.showForm = false;
+  }
+
+  /** Handles the form submission for both Add and Edit */
+  onSubmit() {
+    // Ensure capacity is a number
+    this.formData.capacity = +this.formData.capacity; 
+
+    if (this.isEditMode) {
+     
+      this.api.UpdateRoomType(this.formData.id, this.formData).subscribe({
+        next: () => {
+          this.showForm = false;
+          this.loadRoomTypes();
+        },
+        error: (err: any) =>{ 
+          console.log(this.formData);
+          console.error('Error updating room type:', err)}
+      });
+    } else {
+      // We assume your API service has an 'addRoomType' method
+      this.api.AddRoomType(this.formData).subscribe({
+        next: () => {
+          this.showForm = false;
+          this.loadRoomTypes();
+        },
+        error: (err: any) => console.error('Error adding room type:', err)
+      });
+    }
   }
 }

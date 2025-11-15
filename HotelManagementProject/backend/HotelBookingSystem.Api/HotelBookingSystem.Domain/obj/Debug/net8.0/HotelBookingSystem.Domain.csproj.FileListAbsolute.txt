@@ -21,3 +21,15 @@ C:\Users\sufiyan.jt\Desktop\DotNet\AssigmentSufiyan\HotelManagementProject\backe
 C:\Users\sufiyan.jt\Desktop\DotNet\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\refint\HotelBookingSystem.Domain.dll
 C:\Users\sufiyan.jt\Desktop\DotNet\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.pdb
 C:\Users\sufiyan.jt\Desktop\DotNet\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\ref\HotelBookingSystem.Domain.dll
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\bin\Debug\net8.0\HotelBookingSystem.Domain.deps.json
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\bin\Debug\net8.0\HotelBookingSystem.Domain.dll
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\bin\Debug\net8.0\HotelBookingSystem.Domain.pdb
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.AssemblyInfoInputs.cache
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.AssemblyInfo.cs
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.csproj.CoreCompileInputs.cache
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.sourcelink.json
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.dll
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\refint\HotelBookingSystem.Domain.dll
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\HotelBookingSystem.Domain.pdb
+D:\AssigmentSufiyan\HotelManagementProject\backend\HotelBookingSystem.Api\HotelBookingSystem.Domain\obj\Debug\net8.0\ref\HotelBookingSystem.Domain.dll
