@@ -1,0 +1,27 @@
+<div class="Maincontainer">
+  <div class="InnerContainer">
+    <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/373a85be7e-505833d100ea28812cf1.png" class="imgclass" alt="Hotel background">
+    <div class="overlay"></div>
+
+    <div class="formcontainer">
+      <form #searchForm="ngForm" (ngSubmit)="onSearch(searchForm)">
+  <div class="input-row">
+    <div class="input-group">
+      <label for="location">Destination</label>
+      <input type="text" id="location" name="location" ngModel placeholder="Location">
+    </div>
+    <div class="input-group">
+      <label for="checkInDate">Check In</label>
+      <input type="date" id="checkInDate" name="checkInDate" ngModel>
+    </div>
+    <div class="input-group">
+      <label for="checkOutDate">Check Out</label>
+      <input type="date" id="checkOutDate" name="checkOutDate" ngModel>
+    </div>
+  </div>
+  <button type="submit" class="ButtonMiddle">Search</button>
+</form>
+
+    </div>
+  </div>
+</div>

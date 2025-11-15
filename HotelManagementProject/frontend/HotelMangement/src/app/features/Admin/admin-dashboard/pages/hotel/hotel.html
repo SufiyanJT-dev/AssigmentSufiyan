@@ -1,0 +1,48 @@
+
+<div class="hotel-page">
+  <div class="page-header">Hotel Management</div>
+
+  <!-- Add Hotel Button -->
+  <button class="primary-btn" (click)="toggleForm()">Add Hotel</button>
+
+  <!-- Add Hotel Form -->
+  <div class="hotel-form" *ngIf="showForm && !selectedHotel">
+    <input type="text" [(ngModel)]="newHotels.Name" placeholder="Hotel Name" />
+    <input type="text" [(ngModel)]="newHotels.Address" placeholder="Address" />
+    <input type="text" [(ngModel)]="newHotels.City" placeholder="City" />
+    <input type="text" [(ngModel)]="newHotels.Country" placeholder="Country" />
+    <input type="text" [(ngModel)]="newHotels.Description" placeholder="Description" />
+    <input type="text" [(ngModel)]="newHotels.PhoneNumber" placeholder="Phone Number" />
+    <input type="file" (change)="onFileSelected($event)" />
+    <button (click)="addHotel()">Submit</button>
+  </div>
+
+  <!-- Hotel List -->
+  <div class="hotel-list">
+    <div class="hotel-card" *ngFor="let hotel of filteredHotels()">
+      <img [src]="hotel.path" alt="{{ hotel.name }}" class="hotel-image" />
+      <h3>{{ hotel.name }}</h3>
+      <p><strong>Address:</strong> {{ hotel.address }}</p>
+      <p><strong>City:</strong> {{ hotel.city }}</p>
+      <p><strong>Country:</strong> {{ hotel.country }}</p>
+      <p><strong>Description:</strong> {{ hotel.description }}</p>
+      <p><strong>Phone:</strong> {{ hotel.phoneNumber }}</p>
+
+      <button (click)="editHotel(hotel)">Update</button>
+      <button (click)="deleteHotel(hotel.id)">Delete</button>
+      <button (click)="goToRoomList(hotel.id)">RoomList</button>
+
+      <!-- Inline Edit Form -->
+      <div *ngIf="selectedHotel?.id === hotel.id">
+        <input type="text" [(ngModel)]="selectedHotel.name" />
+        <input type="text" [(ngModel)]="selectedHotel.address" />
+        <input type="text" [(ngModel)]="selectedHotel.city" />
+        <input type="text" [(ngModel)]="selectedHotel.country" />
+        <input type="text" [(ngModel)]="selectedHotel.description" />
+        <input type="text" [(ngModel)]="selectedHotel.phoneNumber" />
+        <input type="file" (change)="onFileSelected($event)" />
+        <button (click)="saveHotel()">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
